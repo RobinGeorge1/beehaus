@@ -281,3 +281,9 @@ hr {
   font-size: 2rem;
   padding-top: 1rem;
 }
+
+/* Styling for wireframes */
+
+.wireframe-img {
+  margin-bottom: 2rem;
+}
