@@ -63,7 +63,7 @@ h4 {
   font-weight: lighter;
   font-size: 1.3rem;
   margin-bottom: 1rem;
-  transition: background-color 0.5s ease-out;
+
 }
 
 .button-nav:hover, .button-nav:focus {
@@ -188,7 +188,6 @@ li {
   text-decoration: none;
   font-weight: lighter;
   font-size: 1.3rem;
-  transition: background-color 0.5s ease-out;
 }
 
 .nav-main-item:hover, .nav-main-item:focus {
