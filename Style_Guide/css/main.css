@@ -16,7 +16,7 @@ section:not([id]) {
 }
 
 section h3 {
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 
 section p {
@@ -26,6 +26,10 @@ section p {
 section code {
   background-color: #FFCC99;
   padding: 0.5em 0.75em;
+}
+
+h3 + code {
+  margin-top: 1rem;
 }
 
 .wireframe_elements {
@@ -53,22 +57,23 @@ h4 {
 /* Styling for the navigation buttons */
 .button-nav {
   display: inline-block;
-  padding: 0.9rem 1.7rem;
-  margin-left: 1rem;
+  padding: 0.5rem 0.9rem;
   color: #FFF;
   background-color: #394B46;
   border: solid;
   border-width: 1px;
   text-decoration: none;
   font-weight: lighter;
-  font-size: 1.3rem;
+  font-size: 1.05rem;
   margin-bottom: 1rem;
+  border-radius: 0.2rem;
+  text-transform: uppercase;
 
 }
 
 .button-nav:hover, .button-nav:focus {
   color: #394B46;
-  background-color: #FFF;
+  background: none;
   border: solid;
   border-width: 1px;
 }
@@ -77,8 +82,8 @@ h4 {
 /* Styling for test input field */
 input {
   width: 40%;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
   padding-left: .5rem;
   box-sizing: border-box;
   font-size: 1rem;
@@ -102,7 +107,7 @@ input {
 
 /* Styling for headers */
 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: lighter;
   padding: 1rem;
   color: #394B46;
@@ -110,15 +115,6 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5rem;
-  font-weight: lighter;
-  padding: 1rem;
-  padding-top: 2rem;
-  color: #394B46;
-  margin: 0;
-}
-
-.h3-header {
   font-size: 2rem;
   font-weight: lighter;
   padding: 1rem;
@@ -127,14 +123,27 @@ h2 {
   margin: 0;
 }
 
+.h3-header {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  padding: 1rem;
+  padding-top: 2rem;
+  color: #394B46;
+  margin: 0;
+}
+
+h1, section > h2, .h3-header {
+  padding-left: 0;
+}
+
 /* Styling for paragraphs */
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   font-weight: lighter;
   color: #394B46;
   background-color: #F2F2F2;
-  padding: 1rem;
+  padding: 2rem 1.75rem;
 
 }
 
@@ -161,11 +170,29 @@ ol {
   width: 50%;
 }
 
+ol.number {
+  list-style: none;
+  counter-reset: li
+}
+
+ol.number li::before {
+  content: counter(li) ".";
+  display: inline-block;
+  width: 1.5rem;
+  margin-left: -1.5rem;
+  font-size: 0.9rem;
+  color: #F59E8C;
+}
+
+ol.number li {
+  counter-increment: li
+}
+
 li {
   color: #394B46;
   padding: .7rem;
   font-weight: lighter;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
 }
 
 
@@ -178,7 +205,7 @@ li {
 
 .nav-main-item {
   display: inline-block;
-  padding: 0.9rem 2.5rem;
+  padding: 0.5rem 0.9rem;
   margin-right: .5rem;
   margin-bottom: 0.5rem;
   color: #394B46;
@@ -187,7 +214,8 @@ li {
   border-width: 1px;
   text-decoration: none;
   font-weight: lighter;
-  font-size: 1.3rem;
+  font-size: 1.05rem;
+  border-radius: 0.2rem;
 }
 
 .nav-main-item:hover, .nav-main-item:focus {
@@ -207,6 +235,7 @@ figure {
   flex-wrap: wrap;
   background-color: #F9BE50;
   padding: 1.5rem 1rem 1.5rem 1rem;
+  margin-bottom: 2rem;
 }
 
 .box-item-image {
@@ -222,6 +251,19 @@ figure {
   padding-right: 1rem;
   margin: 0 1rem;
   background-color: #F2F2F2;
+}
+
+.box-item-text p {
+  padding: 0.5rem 1rem;
+}
+
+.box-item-text a.button-nav {
+  margin-left: 1rem;
+  margin-top: 0.4rem;
+}
+
+.box, .box-item-image img, .box-item-text, p, .grid-item, img, h2.grey-font, h2.navy-green-font, h2.yellow-font {
+  border-radius: 0.2rem;
 }
 
 /*
@@ -242,8 +284,11 @@ hr {
 }
 
 .grid-item {
+  display: flex;
   flex: 1;
   height: 40rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .grid-item:nth-of-type(even) {
@@ -279,6 +324,10 @@ hr {
   background: #F9BE50;
   font-size: 2rem;
   padding-top: 1rem;
+}
+
+h2.grey-font, h2.navy-green-font, h2.yellow-font {
+  padding: 1rem;
 }
 
 /* Styling for wireframes */
