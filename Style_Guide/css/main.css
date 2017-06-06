@@ -292,36 +292,36 @@ hr {
 }
 
 .grid-item:nth-of-type(even) {
-  background-color: #F2F2F2;
-  color: #F9BE50;
+  background-color: #FEFBF1;
+  color: #434343;
 }
 
 .grid-item:nth-of-type(odd) {
-  background-color: #F9BE50;
-  color: #F2F2F2;
+  background-color: #FBD586;
+  color: #434343;
 }
 
 
 /* Styling for color swatches */
 
-.grey-font {
+.light-cream-font {
   color: black;
-  background: #F2F2F2;
+  background: #FEFBF1;
   font-size: 2rem;
   padding-top: 1rem;
   margin-top: 1rem;
 }
 
-.navy-green-font {
+.dark-grey-font {
   color: white;
-  background: #394b46;
+  background: #434343;
   font-size: 2rem;
   padding-top: 1rem;
 }
 
 .yellow-font {
-  color: white;
-  background: #F9BE50;
+  color: black;
+  background: #FBD586;
   font-size: 2rem;
   padding-top: 1rem;
 }
