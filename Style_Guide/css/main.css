@@ -59,8 +59,9 @@ h4 {
   display: inline-block;
   padding: 0.5rem 0.9rem;
   color: #FFF;
-  background-color: #394B46;
+  background-color: #434343;
   border: solid;
+  border-color: #434343;
   border-width: 1px;
   text-decoration: none;
   font-weight: lighter;
@@ -72,14 +73,24 @@ h4 {
 }
 
 .button-nav:hover, .button-nav:focus {
-  color: #394B46;
-  background: none;
-  border: solid;
-  border-width: 1px;
+  background-color: #575757;
+  color: #FFF;
+  border-color: #575757;
 }
 
 
-/* Styling for test input field */
+/* Styling for in-text links */
+.text-link {
+  text-decoration: none;
+  color: #067fb3;
+}
+
+.text-link:hover, .text-link:focus {
+  font-weight: normal;
+}
+
+
+/* Styling for text input field */
 input {
   width: 40%;
   padding-top: 0.8rem;
@@ -87,18 +98,9 @@ input {
   padding-left: .5rem;
   box-sizing: border-box;
   font-size: 1rem;
-  color: #394B46;
+  color: #434343;
 }
 
-/* Styling for in-text links */
-.text-link {
-  text-decoration: none;
-  color: #169BD5;
-}
-
-.text-link:hover, .text-link:focus {
-  font-weight: bold;
-}
 
 
 /* 
@@ -141,8 +143,8 @@ h1, section > h2, .h3-header {
 p {
   font-size: 1.15rem;
   font-weight: lighter;
-  color: #394B46;
-  background-color: #F2F2F2;
+  color: #434343;
+  background-color: #FBD586;
   padding: 2rem 1.75rem;
 
 }
@@ -155,7 +157,7 @@ p {
 
 ul {
   list-style-type: circle;
-  background-color: #F2F2F2;
+  background-color: #FBD586;
   padding-top: .5rem;
   padding-bottom: .5rem;
   width: 50%;
@@ -164,7 +166,7 @@ ul {
 
 ol {
   list-style-type: decimal;
-  background-color: #F2F2F2;
+  background-color: #FBD586;
   padding-top: .5rem;
   padding-bottom: .5rem;
   width: 50%;
@@ -181,7 +183,7 @@ ol.number li::before {
   width: 1.5rem;
   margin-left: -1.5rem;
   font-size: 0.9rem;
-  color: #F59E8C;
+  color: #434343;
 }
 
 ol.number li {
@@ -189,7 +191,7 @@ ol.number li {
 }
 
 li {
-  color: #394B46;
+  color: #434343;
   padding: .7rem;
   font-weight: lighter;
   font-size: 1.15rem;
@@ -208,10 +210,11 @@ li {
   padding: 0.5rem 0.9rem;
   margin-right: .5rem;
   margin-bottom: 0.5rem;
-  color: #394B46;
+  color: #434343;
   background-color: #FFF;
   border: solid;
   border-width: 1px;
+  border-color: #434343;
   text-decoration: none;
   font-weight: lighter;
   font-size: 1.05rem;
@@ -219,8 +222,9 @@ li {
 }
 
 .nav-main-item:hover, .nav-main-item:focus {
-  color: #FFF;
-  background-color: #394B46;
+  color: #efbb4f;
+  border-color: #efbb4f;
+  font-weight: normal;
 }
 
 
@@ -233,24 +237,23 @@ figure {
 .box {
   display: flex;
   flex-wrap: wrap;
-  background-color: #F9BE50;
-  padding: 1.5rem 1rem 1.5rem 1rem;
+  justify-content: space-around;
+  background-color: #FFFBEC;
+  padding: 2rem 5rem 2rem 5rem;
   margin-bottom: 2rem;
 }
 
 .box-item-image {
-  display: flex;
-  flex: 1 1 450px;
+  flex: 1 1 350px;
   padding: 0 1rem;
 }
 
 .box-item-text {
-  flex: 5 1 18rem;
-  flex-direction: row;
+  flex: 4 1 15rem;
   padding-left: 1rem;
   padding-right: 1rem;
   margin: 0 1rem;
-  background-color: #F2F2F2;
+  background-color: #FBD586;
 }
 
 .box-item-text p {
@@ -265,6 +268,8 @@ figure {
 .box, .box-item-image img, .box-item-text, p, .grid-item, img, h2.grey-font, h2.navy-green-font, h2.yellow-font {
   border-radius: 0.2rem;
 }
+
+
 
 /*
 hr {
@@ -292,7 +297,7 @@ hr {
 }
 
 .grid-item:nth-of-type(even) {
-  background-color: #FEFBF1;
+  background-color: #FFFBEC;
   color: #434343;
 }
 
@@ -306,7 +311,7 @@ hr {
 
 .light-cream-font {
   color: black;
-  background: #FEFBF1;
+  background: #FFFBEC;
   font-size: 2rem;
   padding-top: 1rem;
   margin-top: 1rem;
@@ -322,6 +327,20 @@ hr {
 .yellow-font {
   color: black;
   background: #FBD586;
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+
+.light-grey-font {
+  color: white;
+  background: #575757;
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+
+.dark-yellow-font {
+  color: black;
+  background: #EFBB4F;
   font-size: 2rem;
   padding-top: 1rem;
 }
