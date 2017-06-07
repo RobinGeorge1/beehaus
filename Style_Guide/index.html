@@ -6,7 +6,7 @@
   <head>
 
     <meta charset="utf-8">
-    <title>P01: Style Guide</title>
+    <title>P02: Style Guide</title>
 
     <link href="css/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
@@ -16,13 +16,13 @@
 
   <body>
 
-    <h1>P01: Style Guide</h1>
+    <h1>P02: Style Guide</h1>
 
 
     <nav>
 
         <a class="nav-main-item" href="index.html">Style Guide</a>
-        <a class="nav-main-item" href="wireframes.html">Wireframes</a>
+        <a class="nav-main-item" href="../Sitemap/start_g_0.html">Sitemap</a>
         <a class="nav-main-item" href="citations.html">Citations</a>
 
     </nav>
@@ -40,10 +40,10 @@
         <h4>.button-nav</h4>
 
         <h3>Sample code:</h3>
-        <code>&lt;a href="#" class="button-nav"&gt;DEFAULT BUTTON&lt;/a&gt;</code>
+        <code>&lt;a href="#" class="button-nav"&gt;Button&lt;/a&gt;</code>
 
         <h3>Rendered element:</h3>
-        <a class="button-nav" href="#">DEFAULT BUTTON</a>
+        <a class="button-nav" href="#">Button</a>
 
       </section>
 
@@ -71,10 +71,10 @@
         <h4>.button-nav</h4>
 
         <h3>Sample code:</h3>
-        <code>&lt;a href="#" class="button-nav"&gt;SUBMIT BUTTON&lt;/a&gt;</code>
+        <code>&lt;a href="#" class="button-nav"&gt;Submit&lt;/a&gt;</code>
 
         <h3>Rendered element:</h3>
-        <a class="button-nav" href="#">SUBMIT BUTTON</a>
+        <a class="button-nav" href="#">Submit</a>
       </section>
 
 
@@ -90,7 +90,7 @@
 
         <h3>Rendered element:</h3>
         <form>
-          <input type="text" name="firstname" value="First Name">
+          <input type="text" name="firstname" placeholder="First Name">
         </form>
 
       </section>
@@ -101,7 +101,7 @@
     <!-- TEXT ELEMENTS SECTION // -->
 
     <!-- 3 Headings styling section -->
-      <section>
+      <section id="headings">
         <h2>Headings</h2>
 
         <h3>CSS selector:</h3>
@@ -179,7 +179,7 @@
         &lt;/ol&gt;</code>
 
         <h3>Rendered element:</h3>
-        <ol>
+        <ol class="number">
           <li>Address, City, Postal Code</li>
           <li>10 Mason Bees</li>
           <li>Global Mail (12-20 Days)</li>
@@ -236,7 +236,7 @@
             &lt;div class="box-item-text"&gt;
               &lt;h2&gt;Mason Bees&lt;/h2&gt;
               &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
-              &lt;a class="button-nav" href="#"&gt;ADOPT&lt;/a&gt;
+              &lt;a class="button-nav" href="#"&gt;Adopt&lt;/a&gt;
             &lt;/div&gt;
           &lt;/div&gt;
 
@@ -249,7 +249,7 @@
             &lt;div class="box-item-text"&gt;
               &lt;h2&gt;Honeybees&lt;/h2&gt;
               &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
-              &lt;a class="button-nav" href="#"&gt;ADOPT&lt;/a&gt;
+              &lt;a class="button-nav" href="#"&gt;Adopt&lt;/a&gt;
             &lt;/div&gt;
           &lt;/div&gt;
         </code>
@@ -264,7 +264,7 @@
           <div class="box-item-text">
             <h2>Mason Bees</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-            <a class="button-nav" href="#">ADOPT</a>
+            <a class="button-nav" href="#">Adopt</a>
           </div>
         </div>
 
@@ -277,7 +277,7 @@
           <div class="box-item-text">
             <h2>Honeybees</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-            <a class="button-nav" href="#">ADOPT</a>
+            <a class="button-nav" href="#">Adopt</a>
           </div>
         </div>
 
@@ -289,22 +289,18 @@
         <h2>Grid Structure</h2>
 
         <div class="container">
-          <div class="grid-item">1/16</div>
-          <div class="grid-item">1/16</div>
-          <div class="grid-item">1/16</div>
-          <div class="grid-item">1/16</div>
-          <div class="grid-item">1/16</div>
-          <div class="grid-item">1/16</div>
-          <div class="grid-item">1/16</div>
-          <div class="grid-item">1/16</div>
-          <div class="grid-item">1/16</div>
-          <div class="grid-item">1/16</div>
-          <div class="grid-item">1/16</div>
-          <div class="grid-item">1/16</div>
-          <div class="grid-item">1/16</div>
-          <div class="grid-item">1/16</div>
-          <div class="grid-item">1/16</div>
-          <div class="grid-item">1/16</div>
+          <div class="grid-item">1/12</div>
+          <div class="grid-item">1/12</div>
+          <div class="grid-item">1/12</div>
+          <div class="grid-item">1/12</div>
+          <div class="grid-item">1/12</div>
+          <div class="grid-item">1/12</div>
+          <div class="grid-item">1/12</div>
+          <div class="grid-item">1/12</div>
+          <div class="grid-item">1/12</div>
+          <div class="grid-item">1/12</div>
+          <div class="grid-item">1/12</div>
+          <div class="grid-item">1/12</div>
         </div>
 
       </section>
@@ -312,14 +308,20 @@
 
       <!-- Color Swatches styling section -->
       <section>
-        <h2>Color Swatches</h2>
+        <h2>Logo / Colour Scheme</h2>
 
-        <img src="images/BeeProfile3.jpg" style="width: 20%" alt="Bee profile variant 1">
-        <img src="images/BeeProfile4.jpg" style="width: 20%" alt="Bee profile variant 2">
+        <img src="images/BeeLogoV3.png" alt="Bee profile variant 1">
+        <img src="images/BeeLogoV2.png" alt="Bee profile variant 2">
 
-        <h2 class="grey-font">#F2F2F2 grey</h2>
-        <h2 class="navy-green-font">#394b46 navy green</h2>
-        <h2 class="yellow-font">#F9BE50 yellow</h2>
+        <h2 class="light-cream-font">#FFFBEC light cream</h2>
+        <h2 class="yellow-font">#FBD586 yellow</h2>
+        <h2 class="light-grey-font">#575757 light grey</h2>
+        <h2 class="dark-yellow-font">#EFBB4F dark yellow</h2>
+        <h2 class="dark-grey-font">#434343 dark grey</h2>
+        
+
+        
+
 
       </section>
     <!-- // COMBINED ELEMENTS SECTION -->
