@@ -302,7 +302,7 @@ hr {
 }
 
 
-/* Styling for color swatches */
+/* Styling for Logo / colour scheme */
 
 .light-cream-font {
   color: black;
@@ -326,12 +326,10 @@ hr {
   padding-top: 1rem;
 }
 
-h2.grey-font, h2.navy-green-font, h2.yellow-font {
+section:last-child h2 ~ h2 {
   padding: 1rem;
 }
 
-/* Styling for wireframes */
-
-.wireframe-img {
-  margin-bottom: 2rem;
+section:last-child img {
+  width: 15%;
 }
