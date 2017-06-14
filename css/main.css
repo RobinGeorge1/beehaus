@@ -1,5 +1,7 @@
+/* GRID OVERLAY */
+
 .overlay-grid {
-	visibility: visible;
+	visibility: hidden;
 	display: flex;
 	position: absolute;
 	left: 0;
@@ -7,6 +9,8 @@
 	height: 100%;
 	width: 100%;
 	z-index: 999;
+	/*visibility: hidden;*/
+	visibility: hidden;
 }
 
 .overlay-grid-unit {
@@ -15,16 +19,16 @@
 	border: 1px solid rgba(0, 0, 0, 0.04);
 }
 
-/* HEADER + NAVIGATION */
-
-html {
+* {
 	box-sizing: border-box;
 }
+
+/* HEADER + NAV */
 
 .mini-header {
 	display: flex;
 	height: 1.4rem;
-	background: #696969;
+	background: #778899;
 }
 
 .mini-header a {
@@ -38,41 +42,44 @@ html {
 
 .header-nav {
 	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	background: #d3d3d3;;
+	background: #d3d3d3;
 }
 
 .header-nav a {
+	display: flex;
+	align-items: center;
 	color: white;
 	text-decoration: none;
 }
 
 .nav-logo {
-	flex: 4 4 0;
+	flex: 4;
 	display: flex;
 	align-items: center;
-	margin-left: 5rem;
+	margin-left: 5rem;;
+}
+
+.nav-logo-type {
+	padding-right: 1rem;
 }
 
 .nav-logo-img {
-	min-height: 100%;
 	width: 50px;
 	margin-right: 1rem;
 	padding: 1.5rem 0;
 	background: #bcbcbc;
+	min-height: 100%;
 }
 
 .nav-links {
-	flex: 8 8 0;
 	display: flex;
-	margin-left: 10rem;
-	margin-right: auto;
+	flex: 8 0 auto;
+	margin-left: 5rem;
 }
 
 .nav-links a {
 	display: block;
-	padding: 1rem 1.25rem;
+	padding: 1rem 1.5rem;
 	background: #bcbcbc;
 	color: white;
 	text-decoration: none;
@@ -97,27 +104,84 @@ html {
 }
 
 .banner-img  {
-	height: 20rem;
-	background: #dcdcdc;
+	height: 25rem;
+	background: #808080;
 }
 
 .banner-text {
 	position: absolute;
-	top: 2.5rem;
+	top: 5rem;
 	left: 5rem;
-	height: 15rem;
-	width: 20rem;
 	background: #c0c0c0;
+	width: 20rem;
 }
 
 .banner-text h1 {
-	padding: 1rem;
+	padding: 1rem 2rem;
 }
 
 .banner-button {
 	position: absolute;
 	right: 5rem;
-	bottom: 2.5rem;
+	bottom: 3rem;
 	padding: 0.75rem 1rem;
 	background: white;
+}
+
+.main-wrapper {
+	background: #dcdcdc;
+	margin: 0 15rem;
+	padding: 4rem 5rem;
+}
+
+section {
+	margin-bottom: 2rem;
+}
+
+.section-bees {
+	display: flex;
+}
+
+.col3 {
+	text-align: center;
+	background: #D3D3D3;
+	border-radius: 0.3rem;
+	padding: 2rem 0;;
+}
+
+.content-bees-img {
+	display: inline-block;
+	background: #A9A9A9;
+	height: 200px;
+	width: 350px;
+}
+
+.content-bees-description {
+	padding: 0 2rem;
+}
+
+
+.section-care {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.section-care > h2 {
+	flex: 0 0 100%;
+}
+
+.col2 {
+	flex: 2 4 0;
+}
+
+.col2 ~ .col2 {
+	flex: 4 4 0;
+	margin: 0 4rem;
+}
+
+.content-care-img {
+	display: inline-block;
+	background: #A9A9A9;
+	height: 300px;
+	width: 550px;
 }
