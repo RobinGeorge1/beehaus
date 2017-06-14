@@ -1,30 +1,46 @@
-/* Navigation & Header */
+.overlay-grid {
+	visibility: visible;
+	display: flex;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 999;
+}
 
-body {
+.overlay-grid-unit {
+	height: 100%;
+	width: 100%;
+	border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+/* HEADER + NAVIGATION */
+
+html {
 	box-sizing: border-box;
 }
 
 .mini-header {
+	display: flex;
 	height: 1.4rem;
 	background: #696969;
-	display: flex;
-	justify-content: flex-end;
 }
 
 .mini-header a {
+	margin-left: auto;
+	margin-right: 1rem;
+	padding: 0.1rem;
+	font-size: 0.9rem;
 	color: white;
 	text-decoration: none;
-	font-size: 0.9rem;
-	padding: 0.1rem;
-	margin-right: 1rem;
-
 }
 
 .header-nav {
-	height: 3.5rem;
-	background: #d3d3d3;
 	display: flex;
 	align-items: center;
+	justify-content: flex-start;
+	background: #d3d3d3;;
 }
 
 .header-nav a {
@@ -33,29 +49,48 @@ body {
 }
 
 .nav-logo {
-	margin-left: 3rem;
-}
-
-.nav-logo-img {
-	width: 3rem;
-	height: 3rem;
-	padding: 0.1rem;
+	flex: 4 4 0;
+	display: flex;
+	align-items: center;
 	margin-left: 5rem;
 }
 
+.nav-logo-img {
+	min-height: 100%;
+	width: 50px;
+	margin-right: 1rem;
+	padding: 1.5rem 0;
+	background: #bcbcbc;
+}
+
 .nav-links {
-	margin-left: 10rem;
+	flex: 8 8 0;
 	display: flex;
+	margin-left: 10rem;
+	margin-right: auto;
 }
 
 .nav-links a {
+	display: block;
+	padding: 1rem 1.25rem;
+	background: #bcbcbc;
 	color: white;
 	text-decoration: none;
-	flex: 1 1 auto;
-	margin: 2rem;
 }
 
-/* Section */
+.nav-links a:hover {
+	background: #A9A9A9;
+}
+
+
+/* https://www.jackreichert.com/2011/07/how-to-add-a-divider-between-menu-items-in-css-using-only-one-selector/  */
+
+/*.nav-links a ~ a {
+	border-left: 1px solid white;  
+}
+*/
+
+/* MAIN CONTENT */
 
 .banner {
 	position: relative;
@@ -68,11 +103,11 @@ body {
 
 .banner-text {
 	position: absolute;
-	left: 5rem;
 	top: 2.5rem;
-	background: #c0c0c0;
+	left: 5rem;
 	height: 15rem;
 	width: 20rem;
+	background: #c0c0c0;
 }
 
 .banner-text h1 {
@@ -80,9 +115,9 @@ body {
 }
 
 .banner-button {
-	background: white;
-	padding: 0.75rem 1rem;
 	position: absolute;
 	right: 5rem;
 	bottom: 2.5rem;
+	padding: 0.75rem 1rem;
+	background: white;
 }
