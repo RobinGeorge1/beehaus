@@ -23,6 +23,8 @@
 	box-sizing: border-box;
 }
 
+
+
 /* HEADER + NAV */
 
 .mini-header {
@@ -89,6 +91,28 @@
 	background: #A9A9A9;
 }
 
+.text-link {
+  text-decoration: none;
+  color: #067fb3;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: center;
+	background: #778899;
+}
+
+.footer-nav {
+	width: 90%;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.footer-item {
+	flex: 1;
+	height: 15rem;
+	
+}
 
 /* https://www.jackreichert.com/2011/07/how-to-add-a-divider-between-menu-items-in-css-using-only-one-selector/  */
 
@@ -97,7 +121,7 @@
 }
 */
 
-/* MAIN CONTENT */
+/* BANNER */
 
 .banner {
 	position: relative;
@@ -128,10 +152,26 @@
 	background: white;
 }
 
+
+
+/* FONT + TYPE STYLING */
+
+.em {
+	font-weight: bold;
+}
+
+
+/* MAIN CONTENT */
+
+.wrapper-container {
+	display: flex;
+	justify-content: center;
+}
+
 .main-wrapper {
 	background: #dcdcdc;
-	margin: 0 15rem;
 	padding: 4rem 5rem;
+	width: 75%;
 }
 
 section {
@@ -140,13 +180,6 @@ section {
 
 .section-bees {
 	display: flex;
-}
-
-.col3 {
-	text-align: center;
-	background: #D3D3D3;
-	border-radius: 0.3rem;
-	padding: 2rem 0;;
 }
 
 .content-bees-img {
@@ -170,6 +203,13 @@ section {
 	flex: 0 0 100%;
 }
 
+.content-care-img {
+	display: inline-block;
+	background: #A9A9A9;
+	height: 300px;
+	width: 550px;
+}
+
 .col2 {
 	flex: 2 4 0;
 }
@@ -179,9 +219,9 @@ section {
 	margin: 0 4rem;
 }
 
-.content-care-img {
-	display: inline-block;
-	background: #A9A9A9;
-	height: 300px;
-	width: 550px;
+.col3 {
+	text-align: center;
+	background: #D3D3D3;
+	border-radius: 0.3rem;
+	padding: 2rem 0;;
 }
