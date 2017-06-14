@@ -60,7 +60,7 @@
 	flex: 4;
 	display: flex;
 	align-items: center;
-	margin-left: 5rem;;
+	margin-left: 5rem;
 }
 
 .nav-logo-type {
@@ -73,7 +73,9 @@
 }
 
 .nav-links {
-	margin-left: 5rem;
+	justify-content: flex-end;
+	margin-right: 13%;
+	margin-left: auto;
 	display: flex;
 	flex: 8 0 auto;
 }
