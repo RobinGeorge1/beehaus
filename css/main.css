@@ -1,0 +1,88 @@
+/* Navigation & Header */
+
+body {
+	box-sizing: border-box;
+}
+
+.mini-header {
+	height: 1.4rem;
+	background: #696969;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.mini-header a {
+	color: white;
+	text-decoration: none;
+	font-size: 0.9rem;
+	padding: 0.1rem;
+	margin-right: 1rem;
+
+}
+
+.header-nav {
+	height: 3.5rem;
+	background: #d3d3d3;
+	display: flex;
+	align-items: center;
+}
+
+.header-nav a {
+	color: white;
+	text-decoration: none;
+}
+
+.nav-logo {
+	margin-left: 3rem;
+}
+
+.nav-logo-img {
+	width: 3rem;
+	height: 3rem;
+	padding: 0.1rem;
+	margin-left: 5rem;
+}
+
+.nav-links {
+	margin-left: 10rem;
+	display: flex;
+}
+
+.nav-links a {
+	color: white;
+	text-decoration: none;
+	flex: 1 1 auto;
+	margin: 2rem;
+}
+
+/* Section */
+
+.banner {
+	position: relative;
+}
+
+.banner-img  {
+	height: 20rem;
+	background: #dcdcdc;
+}
+
+.banner-text {
+	position: absolute;
+	left: 5rem;
+	top: 2.5rem;
+	background: #c0c0c0;
+	height: 15rem;
+	width: 20rem;
+}
+
+.banner-text h1 {
+	padding: 1rem;
+}
+
+.banner-button {
+	background: white;
+	padding: 0.75rem 1rem;
+	position: absolute;
+	right: 5rem;
+	bottom: 2.5rem;
+}
