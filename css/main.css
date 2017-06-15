@@ -177,6 +177,31 @@ section {
 	margin-bottom: 2rem;
 }
 
+/* Styling for the bee buttons */
+.button {
+  display: inline-block;
+  padding: 0.5rem 0.9rem;
+  color: #FFF;
+  background-color: #434343;
+  border: solid;
+  border-color: #434343;
+  border-width: 1px;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 1.05rem;
+  margin-bottom: 1rem;
+  border-radius: 0.2rem;
+  text-transform: uppercase;
+
+}
+
+.button:hover, .button:focus {
+  background-color: #575757;
+  color: #FFF;
+  border-color: #575757;
+}
+
+
 .section-bees {
 	justify-content: center;
 	display: flex;
