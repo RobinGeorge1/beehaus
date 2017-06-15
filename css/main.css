@@ -271,6 +271,53 @@ section {
 
 }
 
+.section-adopt-region {
+	justify-content: space-around;
+}
+
+.form-region {
+	margin: 1rem 2rem;
+	flex: 1;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+}
+
+label {
+	display: block;
+	margin-bottom: 0.3rem;
+}
+
+.checkbox-garden {
+	position: relative;
+}
+
+.label-garden {
+	display: inline;
+}
+
+.input-zipcode {
+	margin-top: 1rem;
+	margin-right: 2rem;
+}
+
+/* Form inputs */
+input[type="text"] {
+  display: block;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-left: .5rem;
+  box-sizing: border-box;
+  font-size: 1rem;
+  color: #434343;
+}
+
+.adopt-region-submit {
+	position: absolute;
+	left: 0;
+	top: 6rem;
+}
+
 .button:hover, .button:focus {
   background-color: #575757;
   color: #FFF;
