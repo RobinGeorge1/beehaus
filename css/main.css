@@ -25,6 +25,15 @@
 	box-sizing: border-box;
 }
 
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.main {
+	flex: 1;
+}
 
 
 /* HEADER + NAV */
@@ -107,6 +116,8 @@
 	display: flex;
 	justify-content: center;
 	background: #778899;
+	padding: 2.1rem 1rem;
+	padding-bottom: 2rem;
 }
 
 .footer-nav {
@@ -117,7 +128,6 @@
 
 .footer-item {
 	flex: 1;
-	height: 15rem;
 }
 
 
