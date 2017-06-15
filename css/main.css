@@ -138,9 +138,9 @@ body {
 	position: relative;
 }
 
-.banner-img  {;;
-	height: 400px;;;
-	width: 100%;;
+.banner-img  {
+	height: 400px;
+	width: 100%;
 }
 
 .banner-text {
@@ -148,7 +148,7 @@ body {
 	top: 5rem;
 	left: 5rem;
 	background: #c0c0c0;
-	width: 22rem;;
+	width: 22rem;
 }
 
 .banner-text h1 {
@@ -191,8 +191,8 @@ h4 {
 	background: #dcdcdc;
 	padding: 4rem 5rem;
 	display: flex;
-	flex-direction: column;
 	margin: 0 calc(100% / 6);
+	flex-direction: column;
 	/*width: 1240px;*/
 }
 
@@ -271,7 +271,10 @@ section {
   margin-bottom: 1rem;
   border-radius: 0.2rem;
   text-transform: uppercase;
+}
 
+.right {
+	float: right;
 }
 
 .section-adopt-region {
@@ -304,15 +307,14 @@ label {
 	margin-right: 2rem;
 }
 
-/* Form inputs */
 input[type="text"] {
   display: block;
-  padding-top: 0.8rem;
   padding-bottom: 0.8rem;
   padding-left: .5rem;
   box-sizing: border-box;
   font-size: 1rem;
   color: #434343;
+  padding-top: 0.8rem;
 }
 
 .adopt-region-submit {
@@ -327,11 +329,21 @@ input[type="text"] {
   border-color: #575757;
 }
 
-.message {
+textarea {
+	display: block;
+  	padding: 1rem;
+  	box-sizing: border-box;
+  	font-size: 1rem;
+  	color: #434343;
 	min-width: 100%;
+	width: 450px;
 	height: 350px;
-	padding: 1rem;
-	box-sizing: border-box;
+	margin-bottom: 1.5rem;
+	resize: none;
+}
+
+.contact-us-info {
+	margin-bottom: 1rem;
 }
 
 
@@ -380,6 +392,21 @@ input[type="text"] {
 	flex: 0 0 100%;
 }
 
+.image-container {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1.5rem;
+	background: #D3D3D3;
+}
+
+.image-item {
+	display: flex;
+	flex: 1;
+	height: 400px;
+	width: 100%;
+	justify-content: center;
+}
+
 .content-care-img {
 	background: #A9A9A9;
 	margin-right: 2rem;
@@ -390,12 +417,26 @@ input[type="text"] {
 	flex-wrap: wrap;
 }
 
+.grid-of-2 {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1.5rem;
+	background: #D3D3D3;
+}
+
 .col2 {
 	flex: 1;
 }
 
 .col2 ~ .col2 {
 	flex: 2;
+}
+
+.col2-margin-right {
+	display: flex;
+	margin-right: 2rem;
+	flex-direction: column;
+
 }
 
 .col3 {
@@ -422,7 +463,7 @@ input[type="text"] {
 
 @media (max-width: 1248px) {
 	.main-wrapper {
-		margin: 0 auto;
+	margin: 0 auto;
 	}
 
 	.section-bees {
