@@ -196,6 +196,59 @@ h4 {
 	/*width: 1240px;*/
 }
 
+aside {
+	background: #d3d3d3;
+	position: absolute;
+	flex: 1;
+	left: 3rem;
+	top: 10rem;
+	min-height: 20rem;
+	padding: 0.75rem;
+}
+
+.side-nav {
+	display: flex;
+	flex-direction: column;
+}
+
+.side-nav{
+	padding: 0.75rem;
+}
+
+.side-nav p {
+	margin-left: 1.5rem;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol.number {
+  list-style: none;
+  counter-reset: li
+}
+
+ol.number li::before {
+  content: counter(li) ".";
+  display: inline-block;
+  width: 1.5rem;
+  margin-left: -1.5rem;
+  font-size: 0.9rem;
+  color: #434343;
+}
+
+ol.number li {
+  counter-increment: li
+}
+
+li {
+  color: #434343;
+  padding: .5rem .7rem;
+  font-weight: lighter;
+  font-size: 1.15rem;
+}
+
+
 section {
 	margin-bottom: 2rem;
 }
@@ -304,7 +357,6 @@ section {
 	margin-right: 2rem;
 	margin-bottom: 2rem;
 }
-
 
 /* MEDIA QUERY + RESPONSIVE */
 
