@@ -136,32 +136,41 @@ body {
 /* BANNER */
 
 .banner {
-	position: relative;
+	position: relative;;
+	height: 400px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;;;;
 }
 
 .banner-img  {
-	height: 400px;
 	width: 100%;
+	min-height: 100%;
+	object-fit: cover;
+	opacity: 0.9;;;;
 }
 
 .banner-text {
+	border-radius: 0.3rem;
+	background: rgba(0, 0, 0, 0.2);
+	text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+	border: 2px solid rgba(0, 0, 0, 0.02);
+	padding: 0.9rem 2.8rem;
+	width: 25rem;
 	position: absolute;
-	top: 5rem;
-	left: 5rem;
-	background: #c0c0c0;
-	width: 22rem;
+	left: calc(100% / 6);;
 }
 
 .banner-text h1 {
-	padding: 1rem 3rem;
+	color: white;;
 }
 
 .banner-button {
-	position: absolute;
-	right: 5rem;
-	bottom: 3rem;
+	position: relative;
+	background: white;;
+	font-size: 0.5rem;
 	padding: 0.75rem 1rem;
-	background: white;
+	right: 0;;;;;;;;
 }
 
 
@@ -173,7 +182,9 @@ body {
 	color: #434343;
 }
 em {
-	fontight: bold;
+	font-weight: bold;
+	font-size: 2em;
+	font-style: normal;;;;
 }
 
 .h2-no-section {
@@ -264,8 +275,6 @@ section {
 /* INTERACTIVE ELEMENTS */
 
 .button {
-  display: inline-block;
-  padding: 0.5rem 0.9rem;
   color: #FFF;
   background-color: #434343;
   border: solid;
@@ -276,7 +285,9 @@ section {
   font-size: 1.05rem;
   margin-bottom: 1rem;
   border-radius: 0.2rem;
+  display: inline-block;
   text-transform: uppercase;
+  padding: 0.5rem 0.9rem;
 }
 
 .button:hover, .button:focus {
