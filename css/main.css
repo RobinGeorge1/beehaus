@@ -41,7 +41,7 @@ body {
 .mini-header {
 	display: flex;
 	height: 1.4rem;
-	background: #778899;
+	background: #575757;
 }
 
 .mini-header a {
@@ -53,16 +53,24 @@ body {
 	text-decoration: none;
 }
 
+.mini-header a:hover, a:focus {
+	color: #DCDCDC;
+}
+
 .header-nav {
 	display: flex;
-	background: #d3d3d3;
+	background: white;
 }
 
 .header-nav a {
 	display: flex;
 	align-items: center;
-	color: white;
+	color: #434343;
 	text-decoration: none;
+}
+
+.header-nav a:focus, a:hover {
+	color: #EFBB4F;
 }
 
 .nav-logo {
@@ -74,6 +82,7 @@ body {
 
 .nav-logo-type {
 	padding-right: 1rem;
+	color: #434343;
 }
 
 .nav-logo-img {
@@ -91,28 +100,31 @@ body {
 
 .nav-links a {
 	display: block;
-	background: #bcbcbc;
-	color: white;
-	text-decoration: none;;
+	background: white;
+	color: #434343;
+	text-decoration: none;
 	padding: 1rem 1.5rem;
+
 }
 
-.nav-links a:hover {
-	background: #A9A9A9;
+.nav-links a:hover, a:focus {
+	color: #EFBB4F;
 }
 
 .footer-container {
-	display: flex;
 	justify-content: center;
-	background: #778899;
+	background: #575757;
 	padding: 2.1rem 1rem;
 	padding-bottom: 2rem;
+	display: flex;
 }
 
 .footer-nav {
 	width: 90%;
 	display: flex;
 	justify-content: flex-start;
+	flex-wrap: wrap;
+
 }
 
 .footer-item {
@@ -156,6 +168,10 @@ body {
 
 /* FONT + TYPE STYLING */
 
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #434343;
+}
 em {
 	fontight: bold;
 }
@@ -165,8 +181,9 @@ em {
 }
 
 h4 {
-	color: white;
+	color: #FBD586;
 }
+
 
 
 /* MAIN CONTENT */
@@ -177,7 +194,7 @@ h4 {
 }
 
 .main-wrapper {
-	background: #dcdcdc;
+	background: #FFFBEC;
 	padding: 4rem 5rem;
 	display: flex;
 	margin: 0 calc(100% / 6);
@@ -186,7 +203,7 @@ h4 {
 }
 
 aside {
-	background: #d3d3d3;
+	background: #FBD586;
 	position: absolute;
 	flex: 1;
 	left: 3rem;
@@ -275,8 +292,7 @@ section {
 
 .text-link:hover, .text-link:focus {
   text-decoration: none;
-  font-weight: bolder;
-  color: #575757;
+  color: #DCDCDC;
 }
 
 .right {

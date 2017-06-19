@@ -1,7 +1,7 @@
 /* SECTIONS + GRIDS */
 
 .col1-container {	/* for just a title and words */
-	background: #D3D3D3;
+	background: #FBD586;
 	padding: 1.5rem;
 	padding-top: 0;
 }
@@ -16,7 +16,7 @@
 .col4 {
 	text-align: center;
 	border-radius: 0.3rem;
-	background: #D3D3D3;
+	background: #FBD586;
 	flex: 1 1 0;
 	padding: 2rem 0;
 	margin-right: 2rem;
@@ -36,7 +36,7 @@
 .col3 {
 	text-align: center;
 	border-radius: 0.3rem;
-	background: #D3D3D3;
+	background: #FBD586;
 	flex: 1 1 0;
 	padding: 2rem 0;
 	margin-right: 2rem;
@@ -47,7 +47,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	padding: 1.5rem;
-	background: #D3D3D3;
+	background: #FBD586;
 	padding-top: 0;
 }
 
@@ -55,7 +55,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	padding: 1.5rem;
-	background: #D3D3D3;
+	background: #FBD586;
 }
 
 .col2-container > h2 {
@@ -66,6 +66,10 @@
 	flex: 1;
 }
 
+.col2 p {
+	min-width: 12rem;
+}
+
 .col2 ~ .col2 {
 	flex: 2;
 }
@@ -74,14 +78,13 @@
 	display: flex;
 	margin-right: 2rem;
 	flex-direction: column;
-
 }
 
 .image-container {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 1.5rem;
-	background: #D3D3D3;
+	background: #FBD586;
 }
 
 .image-item {
@@ -102,6 +105,7 @@
 }
 
 .content-bees-description {
+	text-align: left;
 	padding: 0 2rem;
 }
 
@@ -152,5 +156,9 @@
 
 	.nav-links a {
 		flex: 1;
+	}
+
+	.footer-nav {
+		flex-wrap: wrap;
 	}
 }
