@@ -1,0 +1,156 @@
+/* SECTIONS + GRIDS */
+
+.col1-container {	/* for just a title and words */
+	background: #D3D3D3;
+	padding: 1.5rem;
+	padding-top: 0;
+}
+
+.grid-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-right: -2rem;
+}
+
+.col4 {
+	text-align: center;
+	border-radius: 0.3rem;
+	background: #D3D3D3;
+	flex: 1 1 0;
+	padding: 2rem 0;
+	margin-right: 2rem;
+	margin-bottom: 2rem;
+}
+
+.col3-container {
+	justify-content: center;
+	display: flex;
+	margin-right: -2rem;;
+}
+
+.col3-container > h2 {
+	flex: 1 1 100%;
+}
+
+.col3 {
+	text-align: center;
+	border-radius: 0.3rem;
+	background: #D3D3D3;
+	flex: 1 1 0;
+	padding: 2rem 0;
+	margin-right: 2rem;
+	margin-bottom: 2rem;
+}
+
+.col2-container {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1.5rem;
+	background: #D3D3D3;
+	padding-top: 0;
+}
+
+.col2-container-padding-top {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1.5rem;
+	background: #D3D3D3;
+}
+
+.col2-container > h2 {
+	flex: 0 0 100%;
+}
+
+.col2 {
+	flex: 1;
+}
+
+.col2 ~ .col2 {
+	flex: 2;
+}
+
+.col2-margin-right {
+	display: flex;
+	margin-right: 2rem;
+	flex-direction: column;
+
+}
+
+.image-container {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1.5rem;
+	background: #D3D3D3;
+}
+
+.image-item {
+	display: flex;
+	flex: 1;
+	height: 400px;
+	width: 100%;
+	justify-content: center;
+}
+
+.content-care-img {
+	background: #A9A9A9;
+	margin-right: 2rem;
+}
+
+.content-bees-img {
+	height: 200px;
+}
+
+.content-bees-description {
+	padding: 0 2rem;
+}
+
+.flex-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+
+/* MEDIA QUERY + RESPONSIVE */
+
+@media (max-width: 1248px) {
+	.main-wrapper {
+	margin: 0 auto;
+	}
+
+	.col3-container {
+	flex-wrap: wrap;
+	}
+
+	.col3 {
+	flex: 0 1 350px;
+	}
+
+	.col3:last-child {
+		flex: 0 1 350px;
+	}
+}
+
+
+@media (max-width: 780px) {
+	.header-nav {
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
+	.nav-logo {
+		margin-left: 0;
+		width: 100%;
+	}
+
+	.nav-links {
+		margin-left: 0;
+		width: 100%;
+	}
+
+	.nav-links a {
+		flex: 1;
+	}
+}
