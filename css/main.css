@@ -196,6 +196,12 @@ h4 {
 	color: #FBD586;
 }
 
+.standalone {
+	background: #FBD586;
+	padding: 1rem 1.5rem;
+	border-radius: 0.3rem;
+}
+
 
 
 /* MAIN CONTENT */
@@ -215,7 +221,7 @@ h4 {
 }
 
 aside {
-	background: #FBD586;
+	background: #575757;
 	position: absolute;
 	flex: 1;
 	left: 3rem;
@@ -237,6 +243,11 @@ aside {
 	margin-left: 1.5rem;
 }
 
+.side-nav h4 {
+	padding-left: 1.5rem;
+	font-size: 1.2rem;
+}
+
 ol {
   list-style-type: decimal;
 }
@@ -252,7 +263,7 @@ ol.number li::before {
   width: 1.5rem;
   margin-left: -1.5rem;
   font-size: 0.9rem;
-  color: #434343;
+  color: white;
 }
 
 ol.number li {
@@ -260,7 +271,7 @@ ol.number li {
 }
 
 li {
-  color: #434343;
+  color: white;
   padding: .5rem .7rem;
   font-weight: lighter;
   font-size: 1.15rem;
