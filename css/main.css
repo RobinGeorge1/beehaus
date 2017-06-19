@@ -87,7 +87,8 @@ body {
 
 .nav-logo-img {
 	margin-right: 1rem;
-	background: #bcbcbc;;;
+	background: #bcbcbc;
+	max-height: 50px;;;
 }
 
 .nav-links {
