@@ -227,12 +227,13 @@ h4 {
 
 aside {
 	background: #575757;
-	position: absolute;
+	position: relative;
+	align-self: flex-start;
+	left: -21.5rem;
 	flex: 1;
-	left: 3rem;
-	top: 10rem;
-	min-height: 20rem;
-	padding: 0.75rem;
+	padding: 1.5rem;
+	margin-bottom: -20rem;
+	min-height: 20rem;;;;
 }
 
 .side-nav {
@@ -240,8 +241,13 @@ aside {
 	flex-direction: column;
 }
 
-.side-nav{
-	padding: 0.75rem;
+.side-nav a.active {
+	font-weight: 400;;
+}
+
+.side-nav a:not(.active) {
+	pointer-events: none;
+	opacity: 0.3;
 }
 
 .side-nav p {
@@ -251,6 +257,7 @@ aside {
 .side-nav h4 {
 	padding-left: 1.5rem;
 	font-size: 1.2rem;
+	margin: 0.5rem 0;;;
 }
 
 ol {
@@ -259,27 +266,28 @@ ol {
 
 ol.number {
   list-style: none;
-  counter-reset: li
+  counter-reset: li;
+  margin-bottom: 0;
 }
 
 ol.number li::before {
   content: counter(li) ".";
   display: inline-block;
-  width: 1.5rem;
-  margin-left: -1.5rem;
   font-size: 0.9rem;
   color: white;
+  width: 1.5rem;
+  margin-left: -1.5rem;
 }
 
 ol.number li {
-  counter-increment: li
+  counter-increment: li;;
 }
 
 li {
   color: white;
-  padding: .5rem .7rem;
   font-weight: lighter;
   font-size: 1.15rem;
+  padding: 0.5rem;
 }
 
 

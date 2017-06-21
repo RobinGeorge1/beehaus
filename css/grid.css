@@ -130,20 +130,65 @@
 
 @media (max-width: 1248px) {
 	.main-wrapper {
-	margin: 0 auto;
+		margin: 0 auto;
 	}
 
 	.col3-container {
-	flex-wrap: wrap;
+		flex-wrap: wrap;
 	}
 
 	.col3 {
-	flex: 0 1 350px;
+		flex: 0 1 350px;
 	}
 
 	.col3:last-child {
 		flex: 0 1 350px;
 	}
+
+	.adopt-progress {
+		margin-bottom: initial;
+		left: 0;
+		min-height: auto;
+		position: static;
+		padding: 1rem 0 0.5rem 0;
+		align-self: stretch;;;;;
+	}
+
+	.adopt-progress .side-nav {
+		flex-direction: row;
+		white-space: nowrap;;
+	}
+
+	.adopt-progress h4 {
+		font-size: 1.1rem;
+		font-weight: 500;
+	}
+
+	.adopt-progress ol {
+		display: inline-flex;
+		padding: 0 1rem;
+		margin: 0;;;
+	}
+
+	.adopt-progress ol li::before {	/* for just a title and words */
+		font-size: 1.1rem;	/* for just a title and words */
+		width: 1.1rem;	/* for just a title and words */
+		margin-left: 0.2rem;;;;
+	}
+
+	.adopt-progress ol li::after {
+		content: '>';
+		padding-left: 0.8rem;
+		font-size: 0.9rem;
+		vertical-align: middle;
+		display: inline-block;
+		color: #FBD586;;;;;;;
+	}
+
+	.adopt-progress ol li:last-child::after {
+		content: '';
+	}
+
 }
 
 
