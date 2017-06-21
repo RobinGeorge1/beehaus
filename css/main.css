@@ -31,6 +31,10 @@ body {
 	flex-direction: column;
 }
 
+header {
+	z-index: 1;
+}
+
 .main {
 	flex: 1;
 }
@@ -60,6 +64,7 @@ body {
 .header-nav {
 	display: flex;
 	background: white;
+	box-shadow: -1px 3px 4px 0px rgba(0, 0, 0, 0.2);
 }
 
 .header-nav a {
@@ -310,10 +315,19 @@ section {
 
 .text-link {
   text-decoration: none;
-  color: white;
+  color: #067fb3;
 }
 
 .text-link:hover, .text-link:focus {
+  font-weight: normal;
+}
+
+nav .text-link {
+  text-decoration: none;
+  color: white;
+}
+
+nav .text-link:hover, .text-link:focus {
   text-decoration: none;
   color: #DCDCDC;
 }
