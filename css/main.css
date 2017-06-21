@@ -340,6 +340,20 @@ nav .text-link:hover, .text-link:focus {
   color: #DCDCDC;
 }
 
+.citation-tag {
+	padding: 0.25rem 0.35rem;;;;
+	border-radius: 0.3rem;
+	display: inline-block;
+	margin-top: 0.3rem;
+	text-decoration: none;
+	background: #FFFBEC;;
+}
+
+.citation-tag:hover {
+	background: #575757;
+	color: white;
+}
+
 .right {
 	float: right;
 }
