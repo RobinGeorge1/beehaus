@@ -71,10 +71,9 @@
 }
 
 .col2 {
-	flex: 1;
 }
 
-.col2 p {
+.col2 p {	/* for just a title and words */
 	min-width: 12rem;
 }
 
