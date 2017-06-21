@@ -57,6 +57,7 @@
 	padding: 1.5rem;
 	background: #FBD586;
 	padding-top: 0;
+	flex-grow: 1;
 }
 
 .col2-container-padding-top {
@@ -70,16 +71,18 @@
 	flex: 0 0 100%;
 }
 
-.col2 {
-	flex: 1;
+.col2 {	/* for just a title and words */
+	flex: 2;
+	margin-right: 1.5rem;
 }
 
 .col2 p {
-	min-width: 12rem;
+	min-width: 14rem;
 }
 
 .col2 ~ .col2 {
-	flex: 2;
+	flex: 1;
+	margin-right: 0;
 }
 
 .col2-margin-right {
@@ -105,7 +108,9 @@
 
 .content-care-img {
 	background: #A9A9A9;
-	margin-right: 2rem;
+	min-width: 300px;
+	height: auto;
+	max-width: 100%;;
 }
 
 .content-bees-img {
