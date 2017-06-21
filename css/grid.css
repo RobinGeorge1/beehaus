@@ -111,6 +111,8 @@
 
 	flex-direction: column;
 
+	min-width: 350px;
+
 }
 
 

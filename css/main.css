@@ -364,10 +364,10 @@ nav .text-link:hover, .text-link:focus {
 
 .form-region {
 	margin: 1rem 2rem;
-	flex: 1;
 	display: flex;
 	justify-content: space-around;
 	align-content: center;
+	flex: 1;
 }
 
 label {
@@ -377,6 +377,7 @@ label {
 
 .checkbox-garden {
 	position: relative;
+	white-space: nowrap;;;;;
 }
 
 .label-garden {
@@ -454,9 +455,9 @@ input[type="text"] {
 }
 
 .adopt-region-submit {
-	position: absolute;
 	left: 0;
 	top: 6rem;
+	position: absolute;
 }
 
 .continue {
