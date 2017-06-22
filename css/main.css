@@ -37,6 +37,7 @@ header {
 
 .main {
 	flex: 1;
+	margin-bottom: 0;
 }
 
 
@@ -427,7 +428,6 @@ input {
   font-size: 1rem;
   display: block;
   color: #434343;
-  width: 100%;
 }
 
 .input-zipcode input {
