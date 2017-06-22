@@ -413,6 +413,7 @@ nav .text-link:hover, .text-link:focus {
 }
 
 .order-summary {
+	flex-direction: column;
 }
 
 .order-summary img {
