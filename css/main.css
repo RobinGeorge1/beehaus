@@ -94,7 +94,7 @@ header {
 .nav-logo-img {
 	margin-right: 1rem;
 	background: #bcbcbc;
-	max-height: 50px;;;
+	max-height: 50px;
 }
 
 .nav-links {
@@ -143,11 +143,11 @@ header {
 /* BANNER */
 
 .banner {
-	position: relative;;
+	position: relative;
 	height: 400px;
 	overflow: hidden;
 	display: flex;
-	align-items: center;;;;
+	align-items: center;
 }
 
 .banner-img  {
@@ -165,19 +165,19 @@ header {
 	padding: 0.9rem 2.8rem;
 	width: 25rem;
 	position: absolute;
-	left: calc(100% / 6);;
+	left: calc(100% / 6);
 }
 
 .banner-text h1 {
-	color: white;;
+	color: white;
 }
 
 .banner-button {
 	position: relative;
-	background: white;;
+	background: white;
 	font-size: 0.5rem;
 	padding: 0.75rem 1rem;
-	right: 0;;;;;;;;
+	right: 0;
 }
 
 
@@ -191,7 +191,7 @@ body {
 em {
 	font-weight: bold;
 	font-size: 2em;
-	font-style: normal;;;;
+	font-style: normal;
 }
 
 .h2-no-section {
@@ -242,7 +242,7 @@ aside {
 	flex: 1;
 	padding: 1.5rem;
 	margin-bottom: -20rem;
-	min-height: 20rem;;;;
+	min-height: 20rem;
 }
 
 .side-nav {
@@ -251,7 +251,7 @@ aside {
 }
 
 .side-nav a.active {
-	font-weight: 400;;
+	font-weight: 400;
 }
 
 .side-nav a:not(.active):not(.inactive) {
@@ -266,7 +266,7 @@ aside {
 .side-nav h4 {
 	padding-left: 1.5rem;
 	font-size: 1.2rem;
-	margin: 0.5rem 0;;;
+	margin: 0.5rem 0;
 }
 
 ul {
@@ -299,7 +299,7 @@ ol.number li::before {
 }
 
 ol.number li {
-  counter-increment: li;;
+  counter-increment: li;
 }
 
 li {
@@ -360,12 +360,12 @@ nav .text-link:hover, .text-link:focus {
 }
 
 .citation-tag {
-	padding: 0.25rem 0.35rem;;;;
+	padding: 0.25rem 0.35rem;
 	border-radius: 0.3rem;
 	display: inline-block;
 	margin-top: 0.3rem;
 	text-decoration: none;
-	background: #FFFBEC;;
+	background: #FFFBEC;
 }
 
 .citation-tag:hover {
@@ -386,8 +386,8 @@ nav .text-link:hover, .text-link:focus {
 }
 
 .form-shipping {;
-	flex-direction: column;;
-	flex: 1;;
+	flex-direction: column;
+	flex: 1;
 	max-width: 800px;
 }
 
@@ -397,7 +397,7 @@ nav .text-link:hover, .text-link:focus {
 
 .form-field {
 	flex: 1;
-	margin-right: 1rem;;
+	margin-right: 1rem;
 }
 
 .form-field input {
@@ -429,7 +429,7 @@ label {
 
 .checkbox-garden {
 	position: relative;
-	white-space: nowrap;;;;;
+	white-space: nowrap;
 }
 
 .label-garden {
@@ -504,7 +504,7 @@ input {
 
 .styled-checkbox-label {
 	margin-bottom: 1rem;
-	font-weight: 400;;
+	font-weight: 400;
 
 }
 
@@ -535,7 +535,7 @@ input {
 }
 
 .submit-field a {
-	margin-bottom: 0;;
+	margin-bottom: 0;
 }
 
 textarea {
