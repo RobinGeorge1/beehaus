@@ -260,6 +260,16 @@ aside {
 	margin: 0.5rem 0;;;
 }
 
+ul {
+  list-style-type: circle;
+  background-color: #FBD586;
+}
+
+ul li {
+	color: inherit;
+	font-weight: 400;
+}
+
 ol {
   list-style-type: decimal;
 }
@@ -308,10 +318,10 @@ section {
   text-decoration: none;
   font-weight: lighter;
   font-size: 1.05rem;
-  margin-bottom: 1rem;
   border-radius: 0.2rem;
   display: inline-block;
   text-transform: uppercase;
+  margin-bottom: 1rem;
   padding: 0.5rem 0.9rem;
 }
 
@@ -364,10 +374,25 @@ nav .text-link:hover, .text-link:focus {
 
 .form-region {
 	margin: 1rem 2rem;
-	display: flex;
-	justify-content: space-around;
-	align-content: center;
+}
+
+.form-shipping {;
+	flex-direction: column;;
+	flex: 1;;
+	max-width: 800px;
+}
+
+.form-shipping .col2, .form-shipping .col2 ~ .col2 {
+	width: 100%;
+}
+
+.form-field {
 	flex: 1;
+	margin-right: 1rem;;
+}
+
+.form-field input {
+	width: 100%;
 }
 
 label {
@@ -389,15 +414,18 @@ label {
 	margin-right: 2rem;
 }
 
-input[type="text"] {
-  display: block;
-  padding-bottom: 0.8rem;
-  padding-left: .5rem;
-  box-sizing: border-box;
+input {
+  padding: .5rem;
   font-size: 1rem;
+  display: block;
   color: #434343;
-  padding-top: 0.8rem;
+  width: 100%;
 }
+
+.input-zipcode input {
+	padding: 0.8rem 0.5rem;
+}
+
 
 /* CSS checkbox */
 .styled-checkbox {
@@ -465,8 +493,23 @@ input[type="text"] {
 	justify-content: center;
 }
 
-.adopt-submit {
-	position: relative;;;
+.adopt-prev {
+	margin-right: 1rem;
+}
+
+.adopt-next {
+	position: relative;
+}
+
+
+.submit-field {
+	margin-right: 1rem;
+	margin-left: auto;
+	margin-top: 2rem;
+}
+
+.submit-field a {
+	margin-bottom: 0;;
 }
 
 textarea {
