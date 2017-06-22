@@ -119,7 +119,9 @@
 
 .col3 .button {	/* for just a title and words */
 
-	margin-top: auto;
+	margin-top: auto;	/* for just a title and words */
+
+	margin-bottom: 0rem;
 
 
 
