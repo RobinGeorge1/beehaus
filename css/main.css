@@ -197,6 +197,14 @@ em {
 	margin-left: 1.5rem;
 }
 
+.col2-container h3 {
+	margin-top: 0;
+}
+
+.col2-container h3 ~ h3 {
+	margin-top: 1rem;
+}
+
 h4 {
 	color: #FBD586;
 }
