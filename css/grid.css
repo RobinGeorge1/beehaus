@@ -2,13 +2,13 @@
 
 .col1-container {	/* for just a title and words */
 
-	background: #FBD586;
+	background: #FBD586;	/* for just a title and words */
 
-	padding: 1.5rem;
+	border-radius: 0.3rem;	/* for just a title and words */
 
-	padding-top: 0;
+	padding: 1.5rem;	/* for just a title and words */
 
-	border-radius: 0.3rem;
+	padding-top: 0;;;;;;;;
 
 }
 
@@ -212,9 +212,9 @@
 
 	object-fit: cover;
 
-	height: 200px;
-
 	width: 100%;
+
+	height: 200px;
 
 }
 
@@ -277,6 +277,17 @@ form {
 .auto-field {
 
 	flex: 0 auto;
+
+}
+
+.adopt-intro {
+	max-width: 800px;
+}
+
+
+.order-summary {	/* for just a title and words */
+
+	justify-content: flex-start;;
 
 }
 

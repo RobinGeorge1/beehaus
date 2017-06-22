@@ -404,6 +404,23 @@ nav .text-link:hover, .text-link:focus {
 	width: 100%;
 }
 
+.summary {
+	min-width: 800px;
+}
+
+.summary label {
+	font-weight: 500;
+}
+
+.order-summary {
+}
+
+.order-summary img {
+	object-fit: initial;
+	max-width: 100px;
+	height: auto;
+}
+
 label {
 	display: block;
 	margin-bottom: 0.3rem;
