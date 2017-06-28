@@ -452,6 +452,33 @@ input {
 	padding: 0.8rem 0.5rem;
 }
 
+.contact-us-button {
+  color: #FFF;
+  background-color: #434343;
+  border: solid;
+  border-color: #434343; 
+  border-width: 1px;
+  text-decoration: none; 
+  font-weight: lighter; 
+  font-size: 1.05rem; 
+  border-radius: 0.2rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  padding: 0.5rem 0.9rem; 
+  height: auto;
+}
+ 
+.contact-us-button:hover, .contact-us-button:focus {
+  background-color: #575757;
+  color: #FFF;
+  border-color: #575757;
+}
+ 
+.contact-us-text-input {
+  margin-bottom: 1rem;
+}
+
+
 
 /* CSS checkbox */
 .styled-checkbox {
