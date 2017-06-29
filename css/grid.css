@@ -6,9 +6,9 @@
 
 	border-radius: 0.3rem;	/* for just a title and words */
 
-	padding: 1.5rem;	/* for just a title and words */
+	padding-top: 0;	/* for just a title and words */
 
-	padding-top: 0;;;;;;;;
+	padding: 1.5rem;;;;;;;;
 
 }
 
@@ -125,6 +125,8 @@ iframe {
 	padding-top: 0;
 
 	flex-grow: 1;
+
+	border-radius: 0.3rem;
 
 }
 
@@ -256,11 +258,11 @@ form {
 
 .flex-row {
 
-	flex-flow: row wrap;
+	margin-bottom: 1rem;
 
 	display: flex;
 
-	margin-bottom: 1rem;;;;;;;;;
+	flex-flow: row wrap;;;;;;;;;
 
 }
 
@@ -289,7 +291,6 @@ form {
 }
 
 .adopt-intro {
-	max-width: 800px;
 }
 
 
@@ -301,11 +302,92 @@ form {
 
 /* MEDIA QUERY + RESPONSIVE */
 
+
+
+@media (max-width: 1920px) {
+
+	.adopt.listing .adopt-progress {
+
+		margin-bottom: initial;
+
+		left: 0;
+
+		min-height: auto;
+
+		position: static;
+
+		padding: 1rem 0 0.5rem 0;
+
+		align-self: stretch;
+
+		overflow: auto;
+
+	}
+
+	.adopt.listing .adopt-progress .side-nav {
+
+		flex-direction: row;
+
+		white-space: nowrap;;
+
+	}
+
+	.adopt.listing .adopt-progress h4 {
+
+		font-size: 1.1rem;
+
+		font-weight: 500;
+
+	}
+
+	.adopt.listing .adopt-progress ol {
+
+		display: inline-flex;
+
+		padding: 0 1rem;
+
+		margin: 0;;;
+
+	}
+
+	.adopt.listing .adopt-progress ol li::before {	/* for just a title and words */
+
+		font-size: 1.1rem;	/* for just a title and words */
+
+		width: 1.1rem;	/* for just a title and words */
+
+		margin-left: 0.2rem;;;;
+
+	}
+
+	.adopt.listing .adopt-progress ol li::after {
+
+		content: '>';
+
+		padding-left: 0.8rem;
+
+		font-size: 0.9rem;
+
+		vertical-align: middle;
+
+		display: inline-block;
+
+		color: #FBD586;;;;;;;
+
+	}
+
+	.adopt.listing .adopt-progress ol li:last-child::after {
+
+		content: '';
+
+	}
+}
+
 @media (max-width: 1248px) {
 
-	.main-wrapper {
+	.main-wrapper {	/* for just a title and words */
 
-		margin: 0 auto;
+	margin: 0 auto;
 
 	}
 
@@ -353,7 +435,9 @@ form {
 
 		padding: 1rem 0 0.5rem 0;
 
-		align-self: stretch;;;;;
+		align-self: stretch;
+
+		overflow: auto;
 
 	}
 
@@ -417,6 +501,12 @@ form {
 
 }
 
+@media (max-width: 1000px) {
+	.adopt .wrapper-container {
+		display: inherit;
+	}
+}
+
 @media (max-width: 748px) {
 
 	.header-nav {
@@ -427,25 +517,25 @@ form {
 
 	}
 
-	.nav-logo {
+	.nav-logo {	/* for just a title and words */
 
-		margin-left: 0;
+	align-self: center;	/* for just a title and words */
 
-		width: 100%;
+	margin-left: 0;
 
 	}
 
 	.nav-links {
 
-		margin-left: 0;
-
 		width: 100%;
+
+		margin-left: 0;
 
 	}
 
-	.nav-links a {
+	.nav-links a {	/* for just a title and words */
 
-		flex: 1;
+	flex: 1;
 
 	}
 
@@ -467,4 +557,16 @@ form {
 
 	}
 
+}
+
+@media (max-width: 480px) {
+	.nav-links {
+		flex-direction: column;;
+	}
+
+	.nav-links a {	/* for just a title and words */
+		flex: 0 0 100%;	/* for just a title and words */
+		width: 100%;	/* for just a title and words */
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+	}
 }

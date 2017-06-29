@@ -106,7 +106,7 @@ header {
 }
 
 .nav-links a {
-	display: block;
+	display: inline-block;
 	background: white;
 	color: #434343;
 	text-decoration: none;
@@ -221,16 +221,16 @@ h4 {
 /* MAIN CONTENT */
 
 .wrapper-container {
-	display: flex;
 	justify-content: center;
+	display: flex;;
 }
 
 .main-wrapper {
 	background: #FFFBEC;
 	padding: 4rem 5rem;
-	display: flex;
-	margin: 0 calc(100% / 6);
 	flex-direction: column;
+	margin: 0 calc(100% / 6);
+	display: flex;;
 	/*width: 1240px;*/
 }
 
@@ -252,6 +252,7 @@ aside {
 
 .side-nav a.active {
 	font-weight: 400;
+	text-decoration: underline;
 }
 
 .side-nav a:not(.active):not(.inactive) {
@@ -556,7 +557,7 @@ input {
 
 
 .submit-field {
-	margin-right: 1rem;
+	margin-right: auto;
 	margin-left: auto;
 	margin-top: 2rem;
 }
