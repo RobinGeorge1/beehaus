@@ -168,7 +168,7 @@ aside {
     text-decoration: underline
 }
 .side-nav a:not(.active):not(.inactive) {
-    pointer-events: none;
+    pointer-events: none; /* CSS Validator Shows Error, but browser supports! */
     opacity: .3
 }
 .side-nav h4 {
@@ -233,7 +233,7 @@ section {
 .text-link {
     text-decoration: none;
     color: #067fb3;
-    word-break: break-word
+    overflow-wrap: break-word
 }
 .text-link:active {
     color: #055577
@@ -363,7 +363,7 @@ input {
     cursor: auto
 }
 .styled-checkbox:checked+label:after {
-    -webkit-transform: rotate(45deg)
+    transform: rotate(45deg)
 }
 .styled-checkbox-label {
     margin-bottom: 1rem;
