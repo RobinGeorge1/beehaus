@@ -452,12 +452,6 @@ nav a {
 	width: 100%;
 }
 
-
-.summary {
-	min-width: 800px;
-}
-
-
 .summary label {
 	font-weight: 500;
 }
@@ -887,7 +881,7 @@ hr {
 	display: flex;
 	padding: 4rem 5rem;
 	margin: 0 calc(100% / 6);
-	/*width: 1240px;*/
+	flex-basis: 1000px;
 }
 
 aside {
@@ -1044,6 +1038,10 @@ nav a {
 	justify-content: space-around;
 }
 
+.section-adopt-shipping {
+	justify-content: center;
+}
+
 .form-region {
 	margin: 1rem 2rem;
 }
@@ -1065,10 +1063,6 @@ nav a {
 
 .form-field input {
 	width: 100%;
-}
-
-.summary {
-	min-width: 800px;
 }
 
 .summary label {
