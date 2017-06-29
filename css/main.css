@@ -344,6 +344,7 @@ section {
 .text-link {
   text-decoration: none;
   color: #067fb3;
+  word-break: break-all;
 }
 
 .text-link:hover, .text-link:focus {
