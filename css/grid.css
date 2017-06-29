@@ -351,7 +351,7 @@ form {
 }
 @media (max-width: 1000px) {
     .adopt .wrapper-container {
-    display: inherit;
+        display: inherit;
     }
 }
 @media (max-width: 890px) {
@@ -389,13 +389,32 @@ form {
         flex-wrap: wrap;
     }
     .col2 ~ .col2 {
-    margin-left: 0;
+        margin-left: 0;
     }
     .col2 h3 {
         margin-top: 1rem;
     }
     .no-margin-top {
     	margin-top: 1rem;
+    }
+    .contact form {
+        flex-wrap: wrap;
+    }
+    .contact .col2-margin-right {
+        margin-right: 0;
+        flex: 100%;
+        display: block;
+    }
+    .contact .wrapper-container {
+        display: block;
+    }
+    .contact textarea {
+        height: auto;
+        min-height: 200px;
+        width: auto;
+    }
+    .contact-us-text-input {
+        width: 100%;
     }
 }
 @media (max-width: 540px) {
@@ -411,7 +430,7 @@ form {
     }
 
     .section-adopt-region {
-    margin: auto;
+        margin: auto;
     }
 
     .form-region {
