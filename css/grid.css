@@ -54,7 +54,7 @@ iframe {
 
 }
 
-.col4-grouping {	/* for just a title and words */
+.col4-grouping {
 
 	flex-direction: row;	/* for just a title and words */
 
@@ -62,7 +62,8 @@ iframe {
 
 	flex-wrap: wrap;	/* for just a title and words */
 
-	justify-content: center;
+	justify-content: center;	/* for just a title and words */
+
 
 }
 
@@ -153,6 +154,10 @@ iframe {
 
 	flex: 1;
 
+}
+
+.no-margin-top {
+	margin-top: 0;
 }
 
 .col2 p {
