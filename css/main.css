@@ -2,6 +2,12 @@
     box-sizing: border-box;
     transition: all .3s ease-in-out
 }
+
+
+/* ----- HEADER + NAV + FOOTER + BANNER ----- */
+
+/* -- header -- */
+
 header {
     z-index: 1
 }
@@ -25,6 +31,10 @@ header {
 .mini-header a:hover {
     color: #dcdcdc
 }
+
+
+/* -- nav -- */
+
 .header-nav {
     display: flex;
     background: #fff;
@@ -70,6 +80,10 @@ header {
 .nav-links a:hover,a:focus {
     color: #efbb4f
 }
+
+
+/* -- footer -- */
+
 .footer-container {
     justify-content: center;
     background: #575757;
@@ -85,6 +99,10 @@ header {
 .footer-item,aside {
     flex: 1
 }
+
+
+/* -- banner -- */
+
 .banner {
     position: relative;
     height: 400px;
@@ -118,6 +136,11 @@ header {
     padding: .75rem 1rem;
     right: 0
 }
+
+
+
+/* ----- FONT STYLING ----- */
+
 em {
     font-weight: 700;
     font-size: 2em;
@@ -126,30 +149,20 @@ em {
 .h2-no-section,.side-nav p {
     margin-left: 1.5rem
 }
-.col2-container h3,.standalone {
-    margin-top: 0
-}
-.col2-container h3~h3 {
-    margin-top: 1rem
-}
 h4 {
     color: #fbd586
 }
-.standalone {
-    background: #fbd586;
-    padding: 1rem 1.5rem;
-    border-radius: .3rem
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    transition-property: none;
+    font-family: "Roboto",sans-serif;
+    color: #434343
 }
-.wrapper-container {
-    justify-content: center;
-    display: flex
-}
-.main-wrapper {
-    background: #fffbec;
-    padding: 4rem 5rem;
-    margin: 0 calc(100%/6);
-    flex-basis: 1000px
-}
+
+/* ----- SIDE NAV ----- */
+
 aside {
     background: #575757;
     position: relative;
@@ -176,6 +189,11 @@ aside {
     font-size: 1.2rem;
     margin: .5rem 0
 }
+
+
+
+/* ----- LIST ----- */
+
 ul {
     list-style-type: circle;
     background-color: #fbd586
@@ -212,6 +230,13 @@ ol.number li {
 section {
     margin-bottom: 2rem
 }
+
+
+
+/* ----- INTERACTIVE ELEMENTS ----- */
+
+/* -- default button -- */
+
 .button {
     background-color: #434343;
     border: solid;
@@ -230,6 +255,10 @@ section {
     color: #fff;
     border-color: #575757
 }
+
+
+/* -- in-text link -- */
+
 .text-link {
     text-decoration: none;
     color: #067fb3;
@@ -249,6 +278,11 @@ nav .text-link:focus,nav .text-link:hover {
 nav a {
     white-space: nowrap
 }
+
+
+
+/* ----- FORMS ----- */
+
 .citation-tag {
     padding: .25rem .35rem;
     border-radius: .3rem;
@@ -403,14 +437,6 @@ textarea {
     height: 350px;
     margin-bottom: 1.5rem;
     resize: none
-}
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    transition-property: none;
-    font-family: "Roboto",sans-serif;
-    color: #434343
 }
 hr {
     width: 90%;
