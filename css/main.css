@@ -764,9 +764,11 @@ header {
 
 }
 
+
 .nav-links a:hover, a:focus {
 	color: #EFBB4F;
 }
+
 
 .footer-container {
 	justify-content: center;
