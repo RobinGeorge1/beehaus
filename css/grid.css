@@ -391,9 +391,9 @@ form {
 
 @media (max-width: 1248px) {
 
-	.main-wrapper {	/* for just a title and words */
+	.main-wrapper {
 
-	margin: 0 auto;
+	margin: 0 auto;;;;;;
 
 	}
 
@@ -541,7 +541,9 @@ form {
 
 		width: 100%;
 
-		margin-left: 0;
+		margin-right: auto;
+
+		margin-left: auto;
 
 	}
 
@@ -580,5 +582,13 @@ form {
 		flex: 0 0 100%;	/* for just a title and words */
 		width: 100%;	/* for just a title and words */
 		border-top: 1px solid rgba(0, 0, 0, 0.1);
+	}
+}
+
+
+@media (max-width: 35rem) {
+		.banner-text {;;;;;
+		max-width: 25rem;;;;;;
+		left: calc((100% - 25rem) / 2);;;;;;;;
 	}
 }
