@@ -591,6 +591,10 @@ form {
 	.col3-container {
 		margin-right: 0;
 	}
+
+	.col3 {
+		margin-right: 0;
+	}
 }
 
 @media (max-width: 480px) {
