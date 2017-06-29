@@ -307,6 +307,14 @@ form {
 
 }
 
+.comment-text {
+	height: 150px;
+}
+
+.comment-submit {
+	flex: 2;
+}
+
 /* MEDIA QUERY + RESPONSIVE */
 
 
