@@ -360,6 +360,7 @@ form {
         flex-direction: column;
         margin: 0 auto;
     }
+}
 @media (max-width: 480px) {
     .nav-links {
         flex-direction: column;
