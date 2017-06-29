@@ -377,9 +377,11 @@ section {
 }
 
 
-.text-link:hover, .text-link:focus {
+.text-link:hover, .text-link:focus, .text-link:active {
 	color: #055577;
 }
+
+.text-link:
 
 
 nav .text-link {
