@@ -362,6 +362,10 @@ nav .text-link:hover, .text-link:focus {
   color: #DCDCDC;
 }
 
+nav a {
+  white-space: nowrap;
+}
+
 .citation-tag {
 	padding: 0.25rem 0.35rem;
 	border-radius: 0.3rem;
