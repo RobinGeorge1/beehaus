@@ -346,7 +346,7 @@ section {
 }
 
 .text-link:hover, .text-link:focus {
-  font-weight: normal;
+  color: #055577;
 }
 
 nav .text-link {

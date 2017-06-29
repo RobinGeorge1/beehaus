@@ -24,6 +24,12 @@
 
 }
 
+iframe {
+	display: flex;
+	flex: 1 1 0;
+	width: 100%;
+}
+
 .col4 {
 
 	text-align: center;
