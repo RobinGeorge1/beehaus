@@ -414,6 +414,12 @@ form {
 
 	}
 
+	.wrapper-container {	/* for just a title and words */
+
+		display: inherit;
+		
+	}
+
 /* MEDIA QUERY + RESPONSIVE */
 
 .col4 {	/* for just a title and words */
