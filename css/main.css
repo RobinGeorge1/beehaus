@@ -387,7 +387,7 @@ nav .text-link {
 }
 
 
-nav .text-link:hover, .text-link:focus {
+nav .text-link:hover, nav .text-link:focus {
 	text-decoration: none;
 	color: #DCDCDC;
 }
@@ -1006,9 +1006,9 @@ nav .text-link {
   color: white;
 }
 
-nav .text-link:hover, .text-link:focus {
-  text-decoration: none;
-  color: #DCDCDC;
+nav .text-link:hover, nav .text-link:focus {
+	text-decoration: none;
+	color: #DCDCDC;
 }
 
 nav a {
