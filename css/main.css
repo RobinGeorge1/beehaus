@@ -1,6 +1,6 @@
 * {
+    transition: all .3s ease-in-out;
     box-sizing: border-box;
-    transition: all .3s ease-in-out
 }
 
 
@@ -157,8 +157,11 @@ body {
     min-height: 100vh;
     flex-direction: column;
     transition-property: none;
+    color: #434343;
     font-family: "Roboto",sans-serif;
-    color: #434343
+}
+code {
+  background-color: white;
 }
 
 /* ----- SIDE NAV ----- */
