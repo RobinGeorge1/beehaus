@@ -98,9 +98,9 @@
     min-width: 14rem;
 }
 .col2 ~ .col2 {
+    margin-left: 2rem;
     flex: 1;
     margin-right: 0;
-    margin-left: 2rem;
 }
 .col2-margin-right {
     margin-right: 2rem;
@@ -142,13 +142,13 @@
 }
 form {
     justify-content: space-around;
-    align-content: center;
     display: flex;
+    align-content: center;
 }
 .flex-row {
+    flex-flow: row wrap;
     margin-bottom: 1rem;
     display: flex;
-    flex-flow: row wrap;
 }
 .half-field {
     flex: 0 calc(100% / 2 - 1rem);
@@ -171,9 +171,10 @@ form {
 .comment-submit {
     flex: 2;
 }
+
 /* MEDIA QUERY + RESPONSIVE */
 
-@media (max-width: 1920px) {
+@media (max-width: 1919px) {
     .adopt.listing .adopt-progress {
         margin-bottom: initial;
         left: 0;
@@ -278,7 +279,7 @@ form {
 }
 @media (max-width: 1000px) {
     .adopt .wrapper-container {
-        display: inherit;
+    display: inherit;
     }
 }
 @media (max-width: 890px) {
@@ -316,7 +317,7 @@ form {
         flex-wrap: wrap;
     }
     .col2 ~ .col2 {
-        margin-left: 0;
+    margin-left: 0;
     }
     .col2 h3 {
         margin-top: 1rem;
@@ -333,7 +334,15 @@ form {
     .col3 {
         margin-right: 0;
     }
-}
+
+    .section-adopt-region {
+    margin: auto;
+    }
+
+    .form-region {
+        flex-direction: column;
+        margin: 0 auto;
+    }
 @media (max-width: 480px) {
     .nav-links {
         flex-direction: column;
