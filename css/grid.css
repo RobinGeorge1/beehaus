@@ -416,10 +416,10 @@ form {
 
 	}
 
-	.wrapper-container {	/* for just a title and words */
+	.citation .wrapper-container {	/* for just a title and words */
 
 		display: inherit;
-		
+
 	}
 
 /* MEDIA QUERY + RESPONSIVE */

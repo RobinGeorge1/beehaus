@@ -369,6 +369,7 @@ nav .text-link:hover, .text-link:focus {
 	margin-top: 0.3rem;
 	text-decoration: none;
 	background: #FFFBEC;
+	color: #575757;
 }
 
 .citation-tag:hover {
