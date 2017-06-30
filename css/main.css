@@ -475,3 +475,66 @@ hr {
     box-shadow: 2px 0 0 #fff,4px 0 0 #fff,4px -2px 0 #fff,4px -4px 0 #fff,4px -6px 0 #fff,4px -8px 0 #fff;
     transform: rotate(45deg)
 }
+
+
+
+/* ----- SPECIFIC TO STYLE GUIDE ----- */
+
+.s-grid-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.s-grid-item {
+  display: flex;
+  flex: 1;
+  height: 40rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.2rem;
+}
+
+.s-grid-item:nth-of-type(even) {
+  background-color: #FFFBEC;
+  color: #434343;
+}
+
+.s-grid-item:nth-of-type(odd) {
+  background-color: #FBD586;
+  color: #434343;
+}
+
+.light-cream-font {
+  color: black;
+  background: #FFFBEC;
+  font-size: 2rem;
+  padding: 1.5rem;
+}
+
+.dark-grey-font {
+  color: white;
+  background: #434343;
+  font-size: 2rem;
+  padding: 1.5rem;
+}
+
+.yellow-font {
+  color: black;
+  background: #FBD586;
+  font-size: 2rem;
+  padding: 1.5rem;
+}
+
+.light-grey-font {
+  color: white;
+  background: #575757;
+  font-size: 2rem;
+  padding: 1.5rem;
+}
+
+.dark-yellow-font {
+  color: black;
+  background: #EFBB4F;
+  font-size: 2rem;
+  padding: 1.5rem;
+}
