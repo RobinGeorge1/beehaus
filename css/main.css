@@ -96,6 +96,11 @@ header {
     justify-content: flex-start;
     flex-wrap: wrap
 }
+.footer-nav h1 {
+    color: #fbd586;
+    font-size: 1rem;
+    margin: 1.33em 0;
+}
 .footer-item,aside {
     flex: 1
 }
@@ -187,7 +192,8 @@ aside {
     pointer-events: none; /* CSS Validator Shows Error, but browser supports! */
     opacity: .3
 }
-.side-nav h4 {
+.side-nav h1 {
+    color: #fbd586;
     padding-left: 1.5rem;
     font-size: 1.2rem;
     margin: .5rem 0
@@ -286,6 +292,11 @@ nav a {
 
 /* ----- FORMS ----- */
 
+.citation h1 {
+    font-size: 1.17em;
+    font-weight: bold;
+    margin: 1.33rem 0;
+}
 .citation-tag {
     padding: .25rem .35rem;
     border-radius: .3rem;
@@ -428,6 +439,9 @@ input {
 }
 .submit-field a {
     margin-bottom: 0
+}
+.submit-hidden {
+    display: none;
 }
 textarea {
     display: block;
