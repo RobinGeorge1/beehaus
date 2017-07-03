@@ -169,6 +169,21 @@ code {
   background-color: white;
 }
 
+.citation-tag {
+    padding: .25rem .35rem;
+    border-radius: .3rem;
+    display: inline-block;
+    margin-top: .3rem;
+    text-decoration: none;
+    background: #fffbec;
+    color: #575757
+}
+.citation-tag:hover {
+    background: #575757;
+    color: #fff
+}
+
+
 /* ----- SIDE NAV ----- */
 
 aside {
@@ -292,24 +307,6 @@ nav a {
 
 /* ----- FORMS ----- */
 
-.citation h1 {
-    font-size: 1.17em;
-    font-weight: bold;
-    margin: 1.33rem 0;
-}
-.citation-tag {
-    padding: .25rem .35rem;
-    border-radius: .3rem;
-    display: inline-block;
-    margin-top: .3rem;
-    text-decoration: none;
-    background: #fffbec;
-    color: #575757
-}
-.citation-tag:hover {
-    background: #575757;
-    color: #fff
-}
 .right {
     float: right
 }

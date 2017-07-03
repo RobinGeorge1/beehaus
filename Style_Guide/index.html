@@ -16,6 +16,7 @@
     <h1>P02: Style Guide</h1>
 
     <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <h2 class="standalone">Interactive Elements Section</h2>
 
     <!-- Default Button styling section -->
     <section class="col1-container">
@@ -53,32 +54,35 @@
       <h3>CSS selectors:</h3>
       <p>form</p>
       <p>label</p>
-      <p>.form-field + .full-field</p>
+      <p>input</p>
+      <p>.form-field</p>
+      <p>.half-field</p>
 
       <h3>Sample code:</h3>
-      <code>&lt;form&gt; </br>
-        &lt;div class="form-field full-field"&gt; </br>
-          &lt;label&gt;Label&lt;/label&gt; </br>
-          &lt;input type="text" placeholder="Placeholder Text"&gt; </br>
-        &lt;/div&gt; </br>
+      <code>&lt;form&gt; <br>
+        &lt;div class="form-field half-field"&gt; <br>
+          &lt;label for="lastName"&gt;Last Name&lt;/label&gt; <br>
+          &lt;input id="lastName" type="text" placeholder="Last Name"&gt; <br>
+        &lt;/div&gt; <br>
       &lt;/form&gt;</code>
 
       <h3>Rendered element:</h3>
       <form>
-        <div class="form-field full-field">
-          <label>Label</label>
-          <input type="text" placeholder="Placeholder Text">
+        <div class="form-field half-field">
+          <label for="lastName">Last Name</label>
+          <input id="lastName" type="text" placeholder="Last Name">
         </div>
       </form>
 
     </section>
-  <!-- // INTERACTIVE ELEMENTS SECTION -->
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
 
 
 
-  <!-- TEXT ELEMENTS SECTION // -->
+    <!-- TEXT ELEMENTS SECTION // -->
+    <h2 class="standalone">Text Elements Sections</h2>
 
-  <!-- 3 Headings styling section -->
+    <!-- 3 Headings styling section -->
     <section class="col1-container">
       <h2>Headings</h2>
 
@@ -88,8 +92,8 @@
       <p>h3</p>
 
       <h3>Sample code:</h3>
-      <code>&lt;h1&gt;h1 Header&lt;/h1&gt;</code></br>
-      <code>&lt;h2&gt;h2 Header&lt;/h2&gt;</code></br>
+      <code>&lt;h1&gt;h1 Header&lt;/h1&gt;</code><br>
+      <code>&lt;h2&gt;h2 Header&lt;/h2&gt;</code><br>
       <code>&lt;h3&gt;h3 Header&lt;/h3&gt;</code>
 
       <h3>Rendered element:</h3>
@@ -124,10 +128,10 @@
       <p>li</p>
 
       <h3>Sample Code</h3>
-      <code>&lt;ul&gt; </br>
-      &lt;li&gt;Item 1&lt;/li&gt; </br>
-      &lt;li&gt;Item 2&lt;/li&gt; </br>
-      &lt;li&gt;Item 3&lt;/li&gt; </br>
+      <code>&lt;ul&gt; <br>
+      &lt;li&gt;Item 1&lt;/li&gt; <br>
+      &lt;li&gt;Item 2&lt;/li&gt; <br>
+      &lt;li&gt;Item 3&lt;/li&gt; <br>
       &lt;/ul&gt;</code>
 
       <h3>Rendered element:</h3>
@@ -149,10 +153,10 @@
       <p>li</p>
 
       <h3>Sample Code</h3>
-      <code>&lt;ol&gt; </br>
-      &lt;li&gt;Item 1&lt;/li&gt; </br>
-      &lt;li&gt;Item 2&lt;/li&gt; </br>
-      &lt;li&gt;Item 3&lt;/li&gt; </br>
+      <code>&lt;ol&gt; <br>
+      &lt;li&gt;Item 1&lt;/li&gt; <br>
+      &lt;li&gt;Item 2&lt;/li&gt; <br>
+      &lt;li&gt;Item 3&lt;/li&gt; <br>
       &lt;/ol&gt;</code>
 
       <h3>Rendered element:</h3>
@@ -163,11 +167,12 @@
       </ol>
 
     </section>
-  <!-- // TEXT ELEMENTS SECTION -->
+    <!-- // TEXT ELEMENTS SECTION -->
 
 
 
-  <!-- COMBINED ELEMENTS SECTION // -->
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <h2 class="standalone">Combined Elements Section</h2>
 
     <!-- Main Navigation Button styling section -->
     <section class="col1-container">
@@ -180,20 +185,20 @@
       <p>.nav-links</p>
 
       <h3>Sample Code</h3>
-      <code>&lt;header&gt; </br>
-      &lt;nav class="header-nav"&gt; </br>
-      &lt;div class="nav-logo"&gt; </br>
-      &lt;a class="nav-logo-type" href="index.html"&gt; </br>
-      &lt;img class="nav-logo-img" src="../img/BeeLogoV2.png" alt="Beehause logo"&gt; Beehaus </br>
-      &lt;/a&gt; </br>
-      &lt;/div&gt; </br>
-      &lt;div class="nav-links"&gt; </br>
-      &lt;a href="adopt-region.html">Adopt&gt;&lt;/a&gt; </br>
-      &lt;a href="care-general.html">Bee Care&gt;&lt;/a&gt; </br>
-      &lt;a href="community.html">Community + News&gt;&lt;/a&gt; </br>
-      &lt;a href="about.html">Adopt Ust&gt;&lt;/a&gt; </br>
-      &lt;/div&gt; </br>
-      &lt;/nav&gt; </br>
+      <code>&lt;header&gt; <br>
+      &lt;nav class="header-nav"&gt; <br>
+      &lt;div class="nav-logo"&gt; <br>
+      &lt;a class="nav-logo-type" href="index.html"&gt; <br>
+      &lt;img class="nav-logo-img" src="../img/BeeLogoV2.png" alt="Beehause logo"&gt; Beehaus <br>
+      &lt;/a&gt; <br>
+      &lt;/div&gt; <br>
+      &lt;div class="nav-links"&gt; <br>
+      &lt;a href="adopt-region.html"&gt;Adopt&lt;/a&gt; <br>
+      &lt;a href="care-general.html"&gt;Bee Care&lt;/a&gt; <br>
+      &lt;a href="community.html"&gt;Community + News&lt;/a&gt; <br>
+      &lt;a href="about.html"&gt;Adopt Us&lt;/a&gt; <br>
+      &lt;/div&gt; <br>
+      &lt;/nav&gt; <br>
       &lt;/header&gt;</code>
 
       <h3>Rendered element:</h3>
@@ -206,14 +211,13 @@
             </a>
           </div>
           <div class="nav-links">
-            <a href="adopt-region.html">Adopt</a>
-            <a href="care-general.html">Bee Care</a>
-            <a href="community.html">Community + News</a>
-            <a href="about.html">About Us</a>
+            <a href="../adopt-region.html">Adopt</a>
+            <a href="../care-general.html">Bee Care</a>
+            <a href="../community.html">Community + News</a>
+            <a href="../about.html">About Us</a>
           </div>
         </nav>
       </header>
-
     </section>
 
     <!-- Product Listing styling section -->
@@ -228,145 +232,165 @@
 
       <h3>Sample Code</h3>
       <code>
-      &lt;section class="main"&gt; </br>
-      &lt;div class="wrapper-container"&gt; </br>
-      &lt;div class="main-wrapper"&gt; </br>
-      &lt;section class="col3-container"&gt; </br>
-      &lt;div class="col3"&gt; </br>
-      &lt;img class="content-bees-img" src="../img/mason-on-red-leaf.jpg" alt="close up of a mason bee on a red leaf"&gt; </br>
-      &lt;h3&gt;Mason Bee&lt;/h3&gt; </br>
-      &lt;a class="button" href="../care-mason.html" title="mason bee care"&gt;Learn More&lt;/a&gt; </br>
-      &lt;/div&gt; </br>
+      &lt;section class="col3-container"&gt; <br>
+      &lt;div class="col3"&gt; <br>
+      &lt;img class="content-bees-img" src="../img/mason-on-red-leaf.jpg" alt="close up of a mason bee on a red leaf"&gt; <br>
+      &lt;h3&gt;Mason Bee&lt;/h3&gt; <br>
+      &lt;a class="button" href="../care-mason.html" title="mason bee care"&gt;Learn More&lt;/a&gt; <br>
+      &lt;/div&gt; <br>
 
-      &lt;div class="col3"&gt; </br>
-      &lt;img class="content-bees-img" src="../img/leafcutter-on-leaf.jpg" alt="close up of a leafcutter bee on a green leaf"&gt; </br>
-      &lt;h3&gt;Leafcutter Bee&lt;/h3&gt; </br>
-      &lt;a class="button" href="../care-leafcutter.html" title="leafcutter bee care"&gt;Learn More&lt;/a&gt; </br>
-      &lt;/div&gt; </br>
+      &lt;div class="col3"&gt; <br>
+      &lt;img class="content-bees-img" src="../img/leafcutter-on-leaf.jpg" alt="close up of a leafcutter bee on a green leaf"&gt; <br>
+      &lt;h3&gt;Leafcutter Bee&lt;/h3&gt; <br>
+      &lt;a class="button" href="../care-leafcutter.html" title="leafcutter bee care"&gt;Learn More&lt;/a&gt; <br>
+      &lt;/div&gt; <br>
 
-      &lt;div class="col3"&gt; </br>
-      &lt;img class="content-bees-img" src="../img/mining-on-green-flower.jpg" alt="close up of a mining bee on a green flower"&gt; </br>
-      &lt;h3&gt;Mining Bee&lt;/h3&gt; </br>
-      &lt;a class="button" href="../care-mining.html" title="mining bee care"&gt;Learn More&lt;/a&gt; </br>
-      &lt;/div&gt; </br>
-      &lt;/section&gt; </br>
-      &lt;/div&gt; </br>
-      &lt;/div&gt; </br>
-      &lt;/section&gt; 
+      &lt;div class="col3"&gt; <br>
+      &lt;img class="content-bees-img" src="../img/mining-on-green-flower.jpg" alt="close up of a mining bee on a green flower"&gt; <br>
+      &lt;h3&gt;Mining Bee&lt;/h3&gt; <br>
+      &lt;a class="button" href="../care-mining.html" title="mining bee care"&gt;Learn More&lt;/a&gt; <br>
+      &lt;/div&gt; <br>
+      &lt;/section&gt; <br>
       </code>
 
       <h3>Rendered element:</h3>
 
-      </section>
-      
-      <section class="main">
-        <div class="wrapper-container">
-          <div class="main-wrapper">
-            <section class="col3-container">
-              <div class="col3">
-                <img class="content-bees-img" src="../img/mason-on-red-leaf.jpg" alt="close up of a mason bee on a red leaf">
-                <h3>Mason Bee</h3>
-                <a class="button" href="../care-mason.html" title="mason bee care">Learn More</a>
-              </div>
-              <div class="col3">
-                <img class="content-bees-img" src="../img/leafcutter-on-leaf.jpg" alt="close up of a leafcutter bee on a green leaf">
-                <h3>Leafcutter Bee</h3>         
-                <a class="button" href="../care-leafcutter.html" title="leafcutter bee care">Learn More</a>
-              </div>
-              <div class="col3">
-                <img class="content-bees-img" src="../img/mining-on-green-flower.jpg" alt="close up of a mining bee on a green flower">
-                <h3>Mining Bee</h3>
-                <a class="button" href="../care-mining.html" title="mining bee care">Learn More</a>
-              </div>
-            </section>
-          </div>
-        </div>
-      </section>
+    </section>
 
-      
-
-      <!-- 2 Column Card Sample -->
-      <section class="col1-container">
-        <h2>2 Columm Card Sample</h2>
-
-        <h3>CSS selectors:</h3>
-        <p>.col2-container</p>
-        <p>.col2</p>
-        <p>.content-care-img</p>
-
-
-        <h3>Sample Code</h3>
-        <code>
-        &lt;section class="main"&gt; </br>
-        &lt;div class="wrapper-container"&gt; </br>
-        &lt;div class="main-wrapper"&gt; </br>
-        &lt;section class="col2-container"&gt; </br>
-        &lt;h2&gt;Helping Bees&lt;/h2&gt; </br>
-        &lt;div class="col2"&gt; </br>
-        &lt;img class="content-care-img" src="../img/bee-on-sunflower.jpg" alt="a fuzzy bee on a sunflower"&gt; </br>
-        &lt;/div&gt; </br>
-
-        &lt;div class="col2"&gt; </br>
-        &lt;h3&gt;What You Can Do to Help&lt;/h3&gt; </br>
-        &lt;p&gt;Anyone can contribute to helping out our fuzyy friends. Whether you've just adopted your first nest, or found a native one in your backyard, we have some tips and tricks for you.&lt;/p&gt; </br>
-        &lt;a class="button" href="../care-general.html" title="general bee care information"&gt;Learn More&lt;/a&gt; </br>
-
-        &lt;h3&gt;Interested in Adopting?&lt;/h3&gt; </br>
-        &lt;p&gt;Anyone can contribute to helping out our fuzyy friends. Whether you've just adopted your first nest, or found a native one in your backyard, we have some tips and tricks for you.&lt;/p&gt; </br>
-        &lt;a class="button" href="../adopt-region.html"&gt;Adopt&lt;/a&gt; </br>
-
-        &lt;/div&gt; </br>
-        &lt;/section&gt; </br>
-        &lt;/div&gt; </br>
-        &lt;/div&gt; </br>
-        &lt;/section&gt; 
-        </code>
-
-        <h3>Rendered element:</h3>
-
-        </section>
-        
-        <section class="main">
-          <div class="wrapper-container">
-            <div class="main-wrapper">
-              <section class="col2-container">
-                <h2>Helping Bees</h2>
-                <div class="col2">
-                  <img class="content-care-img" src="../img/bee-on-sunflower.jpg" alt="a fuzzy bee on a sunflower">
-                </div>
-                <div class="col2">
-                  <h3>What You Can Do to Help</h3>
-                  <p>Anyone can contribute to helping out our fuzyy friends. Whether you've just adopted your first nest, or found a native one in your backyard, we have some tips and tricks for you.</p>
-                  <a class="button" href="../care-general.html" title="general bee care information">Learn more</a>
-                  <h3>Interested In Adopting?</h3>
-                  <p>Start the process now and we will guide you through all the necessary steps, starting with figuring out your region so we can recommend the right, native bees.</p>
-                  <a class="button" href="../adopt-region.html">Adopt</a>
-
-                </div>
-              </section>
+    <section class="main">
+      <div class="wrapper-container">
+        <div class="main-wrapper">
+          <section class="col3-container">
+            <div class="col3">
+              <img class="content-bees-img" src="../img/mason-on-red-leaf.jpg" alt="close up of a mason bee on a red leaf">
+              <h3>Mason Bee</h3>
+              <a class="button" href="../care-mason.html" title="mason bee care">Learn More</a>
             </div>
-          </div>
-        </section>
-
-
-      <!-- Grid Structure styling section -->
-      <section>
-        <h2>Grid Structure</h2>
-
-        <div class="s-grid-container">
-          <div class="s-grid-item">1/10</div>
-          <div class="s-grid-item">1/10</div>
-          <div class="s-grid-item">1/10</div>
-          <div class="s-grid-item">1/10</div>
-          <div class="s-grid-item">1/10</div>
-          <div class="s-grid-item">1/10</div>
-          <div class="s-grid-item">1/10</div>
-          <div class="s-grid-item">1/10</div>
-          <div class="s-grid-item">1/10</div>
-          <div class="s-grid-item">1/10</div>
+            <div class="col3">
+              <img class="content-bees-img" src="../img/leafcutter-on-leaf.jpg" alt="close up of a leafcutter bee on a green leaf">
+              <h3>Leafcutter Bee</h3>         
+              <a class="button" href="../care-leafcutter.html" title="leafcutter bee care">Learn More</a>
+            </div>
+            <div class="col3">
+              <img class="content-bees-img" src="../img/mining-on-green-flower.jpg" alt="close up of a mining bee on a green flower">
+              <h3>Mining Bee</h3>
+              <a class="button" href="../care-mining.html" title="mining bee care">Learn More</a>
+            </div>
+          </section>
         </div>
+      </div>
+    </section>
 
-      </section>
+      
+
+    <!-- 2 Column Card Sample -->
+    <section class="col1-container">
+      <h2>2 Columm Card Sample</h2>
+
+      <h3>CSS selectors:</h3>
+      <p>.col2-container</p>
+      <p>.col2</p>
+      <p>.content-care-img</p>
+
+
+      <h3>Sample Code</h3>
+      <code>
+      &lt;section class="col2-container"&gt; <br>
+      &lt;h2&gt;Helping Bees&lt;/h2&gt; <br>
+      &lt;div class="col2"&gt; <br>
+      &lt;img class="content-care-img" src="../img/bee-on-sunflower.jpg" alt="a fuzzy bee on a sunflower"&gt; <br>
+      &lt;/div&gt; <br>
+
+      &lt;div class="col2"&gt; <br>
+      &lt;h3&gt;What You Can Do to Help&lt;/h3&gt; <br>
+      &lt;p&gt;Anyone can contribute to helping out our fuzyy friends. Whether you've just adopted your first nest, or found a native one in your backyard, we have some tips and tricks for you.&lt;/p&gt; <br>
+      &lt;a class="button" href="../care-general.html" title="general bee care information"&gt;Learn More&lt;/a&gt; <br>
+
+      &lt;h3&gt;Interested in Adopting?&lt;/h3&gt; <br>
+      &lt;p&gt;Anyone can contribute to helping out our fuzyy friends. Whether you've just adopted your first nest, or found a native one in your backyard, we have some tips and tricks for you.&lt;/p&gt; <br>
+      &lt;a class="button" href="../adopt-region.html"&gt;Adopt&lt;/a&gt; <br>
+
+      &lt;/div&gt; <br>
+      &lt;/section&gt; <br>
+      </code>
+
+      <h3>Rendered element:</h3>
+
+    </section>
+      
+    <section class="main">
+      <div class="wrapper-container">
+        <div class="main-wrapper">
+          <section class="col2-container">
+            <h2>Helping Bees</h2>
+            <div class="col2">
+              <img class="content-care-img" src="../img/bee-on-sunflower.jpg" alt="a fuzzy bee on a sunflower">
+            </div>
+            <div class="col2">
+              <h3>What You Can Do to Help</h3>
+              <p>Anyone can contribute to helping out our fuzyy friends. Whether you've just adopted your first nest, or found a native one in your backyard, we have some tips and tricks for you.</p>
+              <a class="button" href="../care-general.html" title="general bee care information">Learn more</a>
+              <h3>Interested In Adopting?</h3>
+              <p>Start the process now and we will guide you through all the necessary steps, starting with figuring out your region so we can recommend the right, native bees.</p>
+              <a class="button" href="../adopt-region.html">Adopt</a>
+
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Header With Paragraph Sample -->
+    <section class="col1-container">
+      <h2>Header With Paragraph Sample</h2>
+
+      <h3>CSS selectors:</h3>
+      <p>.col1-container</p>
+
+      <h3>Sample Code</h3>
+      <code>
+      &lt;section class="col-container"&gt; <br>
+      &lt;h2&gt;Lorem Ipsum&lt;/h2&gt; <br>
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin tortor nec nibh euismod, sed elementum eros euismod. Morbi nec ante non odio euismod sodales id in nisi. Aliquam viverra scelerisque sodales. Suspendisse eros ipsum, ultricies id viverra vel, dignissim et turpis. Nunc erat erat, rutrum quis felis et, venenatis pharetra nibh.&lt;/p&gt; <br>
+      &lt;/section&gt; <br>
+      </code>
+
+      <h3>Rendered element:</h3>
+
+    </section>
+      
+    <section class="main">
+      <div class="wrapper-container">
+        <div class="main-wrapper">
+          <section class="col1-container">
+            <h2>Lorem Ipsum</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin tortor nec nibh euismod, sed elementum eros euismod. Morbi nec ante non odio euismod sodales id in nisi. Aliquam viverra scelerisque sodales. Suspendisse eros ipsum, ultricies id viverra vel, dignissim et turpis. Nunc erat erat, rutrum quis felis et, venenatis pharetra nibh.</p>
+          </section>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Grid Structure styling section -->
+    <section>
+      <h2>Grid Structure</h2>
+
+      <div class="s-grid-container">
+        <div class="s-grid-item">1/10</div>
+        <div class="s-grid-item">1/10</div>
+        <div class="s-grid-item">1/10</div>
+        <div class="s-grid-item">1/10</div>
+        <div class="s-grid-item">1/10</div>
+        <div class="s-grid-item">1/10</div>
+        <div class="s-grid-item">1/10</div>
+        <div class="s-grid-item">1/10</div>
+        <div class="s-grid-item">1/10</div>
+        <div class="s-grid-item">1/10</div>
+      </div>
+
+    </section>
 
 
     <!-- Color Swatches styling section -->
